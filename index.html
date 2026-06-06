@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic 360 | Agence communication, marketing et événementiel en Tunisie</title>
+  <meta name="description" content="Magic 360 accompagne les marques en Tunisie avec communication, marketing, digital, affichage, événementiel, packaging et R&D marketing sous un même toit.">
+  <link rel="icon" type="image/png" href="magiclogo.png">
+  <link rel="apple-touch-icon" href="magiclogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..800,70&family=Manrope:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --green-950: #062d26;
+      --green-900: #08443a;
+      --green-800: #0a5d50;
+      --green-700: #0c7564;
+      --green-100: #dff2ec;
+      --green-50: #f3fbf8;
+      --gold-700: #9b7a22;
+      --gold-500: #c8a13b;
+      --gold-300: #ead28c;
+      --cream: #fffaf0;
+      --paper: #fffdf7;
+      --ink: #12211e;
+      --muted: #5b706a;
+      --line: rgba(8, 68, 58, .14);
+      --shadow: 0 20px 60px rgba(6, 45, 38, .12);
+      --radius: 8px;
+      --wrap: min(1120px, calc(100% - 32px));
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(8, 68, 58, .035) 1px, transparent 1px),
+        linear-gradient(180deg, #fffef9 0%, #f6fbf7 100%);
+      background-size: 26px 26px, auto;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; }
+
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -100px;
+      z-index: 100;
+      background: var(--green-900);
+      color: white;
+      padding: 10px 12px;
+      border-radius: var(--radius);
+      transition: top .2s ease;
+    }
+
+    .skip-link:focus { top: 16px; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 253, 247, .86);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav {
+      width: var(--wrap);
+      margin: 0 auto;
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: clamp(132px, 18vw, 210px);
+      height: auto;
+      max-height: 64px;
+      object-fit: contain;
+      flex: 0 0 auto;
+    }
+
+    .brand-mark {
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--green-900);
+      color: var(--gold-300);
+      font-family: "Fraunces", serif;
+      font-size: 1.4rem;
+      font-weight: 850;
+      box-shadow: 0 10px 22px rgba(6, 45, 38, .13);
+      flex: 0 0 auto;
+    }
+
+    .nav-links { display: none; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: var(--radius);
+      border: 1px solid transparent;
+      font-weight: 800;
+      font-size: .9rem;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-whatsapp {
+      color: white;
+      background: #25d366;
+      box-shadow: 0 12px 30px rgba(37, 211, 102, .28);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1fbd5c;
+      box-shadow: 0 16px 34px rgba(37, 211, 102, .34);
+    }
+
+    .wa-icon {
+      display: block;
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+      fill: currentColor;
+    }
+
+    .btn-gold {
+      color: var(--green-950);
+      background: linear-gradient(135deg, #f2da91, var(--gold-500));
+      box-shadow: 0 14px 30px rgba(200, 161, 59, .22);
+    }
+
+    .btn-ghost {
+      color: var(--green-900);
+      border-color: var(--line);
+      background: rgba(255, 255, 255, .72);
+    }
+
+    .shine {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .shine::after {
+      content: "";
+      position: absolute;
+      inset: -40% auto -40% -70%;
+      width: 44%;
+      transform: rotate(18deg);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .58), transparent);
+      animation: sweep 4.6s ease-in-out infinite;
+    }
+
+    @keyframes sweep {
+      0%, 55% { left: -70%; }
+      82%, 100% { left: 130%; }
+    }
+
+    .section {
+      padding: 72px 0;
+      position: relative;
+    }
+
+    .wrap {
+      width: var(--wrap);
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 14px;
+      color: var(--green-800);
+      font-size: .76rem;
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold-500);
+      box-shadow: 0 0 0 6px rgba(200, 161, 59, .13);
+    }
+
+    .hero .eyebrow {
+      color: #d62828;
+    }
+
+    .hero .eyebrow::before {
+      content: "1er";
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      background: #d62828;
+      color: var(--cream);
+      font-family: "Fraunces", serif;
+      font-size: .7rem;
+      font-weight: 850;
+      letter-spacing: 0;
+      text-transform: none;
+      box-shadow: 0 0 0 6px rgba(214, 40, 40, .12);
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1, h2, .display {
+      font-family: "Fraunces", serif;
+      letter-spacing: 0;
+      color: var(--green-800);
+    }
+
+    h1 {
+      margin-bottom: 18px;
+      font-size: clamp(2.8rem, 12vw, 6.4rem);
+      line-height: .94;
+      font-weight: 800;
+      max-width: 100%;
+      overflow-wrap: break-word;
+    }
+
+    h1 span {
+      color: var(--green-800);
+      position: relative;
+      display: inline-block;
+    }
+
+    h1 span::after {
+      content: "";
+      position: absolute;
+      left: .08em;
+      right: .02em;
+      bottom: .04em;
+      height: .16em;
+      z-index: -1;
+      background: linear-gradient(90deg, rgba(234, 210, 140, .85), rgba(234, 210, 140, .18));
+    }
+
+    .hero-title {
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+      perspective: 900px;
+    }
+
+    .hero-title-line {
+      color: var(--green-800);
+      font-size: clamp(2rem, 7vw, 4.35rem);
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .18em;
+    }
+
+    .hero-title-line::after,
+    .hero-title-part::after,
+    .magic-stage::after,
+    .magic-motion::after,
+    .magic-object::after,
+    .magic-shape::after { display: none; }
+
+    .hero-title-part {
+      color: var(--green-800);
+      opacity: 0;
+      transform: translateY(10px);
+      animation: titlePartIn .48s cubic-bezier(.16, 1, .3, 1) forwards;
+    }
+
+    .hero-title-part:nth-child(1) { animation-delay: .5s; }
+    .hero-title-part:nth-child(2) { animation-delay: .96s; }
+
+    .magic-stage {
+      display: inline-grid;
+      width: min-content;
+      position: relative;
+      transform-style: preserve-3d;
+      transform: rotate3d(1, -1, 0, 0deg) translate3d(0, 0, 0);
+      filter: drop-shadow(0 30px 32px rgba(6, 45, 38, .16));
+      justify-self: center;
+    }
+
+    .magic-motion {
+      display: block;
+      transform-style: preserve-3d;
+      transition: transform .22s ease-out;
+      z-index: 2;
+    }
+
+    .magic-object {
+      display: block;
+      width: min(840px, 94vw);
+      transform: translateZ(64px) rotate(-1deg);
+      transform-origin: 50% 70%;
+      animation: magicFloat 5.8s ease-in-out infinite;
+      z-index: 2;
+    }
+
+    .magic-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+      filter:
+        drop-shadow(0 22px 18px rgba(6, 45, 38, .18))
+        drop-shadow(0 46px 52px rgba(6, 45, 38, .13));
+    }
+
+    .magic-svg text {
+      font-family: "Pacifico", "Fraunces", cursive;
+      font-size: 168px;
+      letter-spacing: .01em;
+      text-anchor: middle;
+      paint-order: stroke fill;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .magic-depth {
+      fill: #06352f;
+      stroke: #06352f;
+      stroke-width: 13px;
+      opacity: 1;
+    }
+
+    .magic-depth-mid {
+      fill: #074139;
+      stroke: #074139;
+      stroke-width: 12px;
+      opacity: 1;
+    }
+
+    .magic-front {
+      fill: url(#magic-word-texture);
+      stroke: none;
+      stroke-width: 0;
+      opacity: 1;
+    }
+
+    .magic-write {
+      display: none;
+      fill: none;
+      stroke: var(--gold-500);
+      stroke-width: 12px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 1800;
+      stroke-dashoffset: 1800;
+      filter: drop-shadow(0 8px 10px rgba(6, 45, 38, .14));
+      animation: magicWrite 1.55s cubic-bezier(.68, 0, .18, 1) .12s forwards;
+    }
+
+    .magic-write-sweep {
+      transform-box: fill-box;
+      transform-origin: left center;
+      transform: scaleX(0);
+      animation: magicHandWrite 2.15s cubic-bezier(.55, 0, .16, 1) .18s forwards;
+    }
+
+    .magic-write-edge {
+      transform-box: fill-box;
+      transform-origin: left center;
+      transform: translateX(-56px);
+      animation: magicWriteEdge 2.15s cubic-bezier(.55, 0, .16, 1) .18s forwards;
+    }
+
+    .magic-dot-reveal {
+      fill: white;
+      opacity: 0;
+      transform-box: fill-box;
+      transform-origin: center;
+      transform: scale(.25);
+      animation: magicDotIn .24s cubic-bezier(.16, 1, .3, 1) 2.28s forwards;
+    }
+
+    .magic-fill-reveal {
+      transform-box: fill-box;
+      transform-origin: left center;
+      transform: scaleX(1);
+    }
+
+    .magic-highlight {
+      fill: none;
+      stroke: rgba(255, 255, 255, .18);
+      stroke-width: 3px;
+      transform: translate(-3px, -5px);
+    }
+
+    .magic-edge {
+      fill: none;
+      stroke: var(--gold-500);
+      stroke-width: 5px;
+      transform: translate(-5px, -7px);
+    }
+
+    .magic-shape {
+      position: absolute;
+      display: block;
+      color: var(--green-800);
+      filter:
+        drop-shadow(3px 4px 0 #08483f)
+        drop-shadow(6px 8px 0 #06352f)
+        drop-shadow(0 22px 24px rgba(6, 45, 38, .18));
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .magic-shape svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .magic-shape path:not([fill]),
+    .magic-shape circle {
+      fill: currentColor;
+    }
+
+    .magic-shape-star {
+      left: -2%;
+      top: 18%;
+      width: clamp(76px, 10vw, 132px);
+      height: clamp(76px, 10vw, 132px);
+      opacity: 0;
+      transform:
+        translateZ(76px)
+        rotate(-12deg);
+      animation:
+        starAppearLeft .52s cubic-bezier(.16, 1, .3, 1) 1.5s forwards,
+        starFloatLeft 4.8s ease-in-out 2.02s infinite;
+    }
+
+    .magic-shape-circle {
+      right: -3%;
+      top: 48%;
+      width: clamp(70px, 9vw, 118px);
+      height: clamp(70px, 9vw, 118px);
+      opacity: 0;
+      transform:
+        translateZ(62px)
+        rotate(16deg);
+      animation:
+        starAppearRight .52s cubic-bezier(.16, 1, .3, 1) 1.58s forwards,
+        starFloatRight 5.4s ease-in-out 2.1s infinite;
+    }
+
+    @keyframes magicFloat {
+      0%, 100% { transform: translateZ(64px) rotate(-1deg) translateY(0); }
+      50% { transform: translateZ(64px) rotate(.6deg) translateY(-6px); }
+    }
+
+    @keyframes magicWrite {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes magicHandWrite {
+      to { transform: scaleX(1); }
+    }
+
+    @keyframes magicWriteEdge {
+      to { transform: translateX(716px); }
+    }
+
+    @keyframes magicDotIn {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes magicFillReveal {
+      to { transform: scaleX(1); }
+    }
+
+    @keyframes titlePartIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes starAppearLeft {
+      from {
+        opacity: 0;
+        transform: translateZ(76px) rotate(-96deg) translateY(18px) scale(.38);
+      }
+      to {
+        opacity: 1;
+        transform: translateZ(76px) rotate(-12deg) translateY(0) scale(1);
+      }
+    }
+
+    @keyframes starAppearRight {
+      from {
+        opacity: 0;
+        transform: translateZ(62px) rotate(110deg) translateY(18px) scale(.38);
+      }
+      to {
+        opacity: 1;
+        transform: translateZ(62px) rotate(16deg) translateY(0) scale(1);
+      }
+    }
+
+
+
+    @keyframes starFloatLeft {
+      0%, 100% { transform: translateZ(76px) rotate(-12deg) translateY(0) scale(1); }
+      50% { transform: translateZ(76px) rotate(-5deg) translateY(-8px) scale(1.04); }
+    }
+
+    @keyframes starFloatRight {
+      0%, 100% { transform: translateZ(62px) rotate(16deg) translateY(0) scale(1); }
+      50% { transform: translateZ(62px) rotate(9deg) translateY(7px) scale(1.03); }
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      font-size: clamp(2rem, 8vw, 4.1rem);
+      line-height: .98;
+      font-weight: 760;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+      line-height: 1.25;
+      color: var(--green-800);
+    }
+
+    h2 sup {
+      font-size: .45em;
+      vertical-align: super;
+      line-height: 0;
+    }
+
+    .lead {
+      margin-bottom: 22px;
+      color: var(--muted);
+      font-size: 1.04rem;
+      line-height: 1.75;
+    }
+
+    .hero {
+      --hero-tilt-x: 0deg;
+      --hero-tilt-y: 0deg;
+      position: relative;
+      padding: 44px 0 58px;
+      overflow: hidden;
+      background: url("assets/hero-magic-bg.png") center / cover no-repeat;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 253, 247, .12);
+      z-index: -2;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 34%;
+      background: linear-gradient(180deg, rgba(255, 253, 247, 0), var(--paper));
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-grid {
+      max-width: 1120px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-grid > * { min-width: 0; }
+
+    .hero-copy .lead {
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+    }
+
+    .hero-actions {
+      display: grid;
+      gap: 12px;
+      margin: 26px 0 22px;
+      justify-content: center;
+    }
+
+    .hero .hero-actions {
+      margin-top: 64px;
+    }
+
+    .hero .hero-actions .btn {
+      animation: heroCtaIn .62s cubic-bezier(.16, 1, .3, 1) backwards;
+    }
+
+    .hero .hero-actions .btn:nth-child(1) {
+      animation-delay: 1.85s;
+    }
+
+    .hero .hero-actions .btn:nth-child(2) {
+      animation-delay: 2.02s;
+    }
+
+    @keyframes heroCtaIn {
+      from {
+        opacity: 0;
+        transform: translateY(18px) scale(.96);
+      }
+    }
+
+    @media (max-width: 719px) {
+      .hero {
+        padding: 38px 0 50px;
+      }
+
+      .hero .hero-actions {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        margin-top: 46px;
+      }
+
+      .hero .hero-actions .btn {
+        min-height: 44px;
+        padding: 0 12px;
+        font-size: .78rem;
+        flex: 1 1 0;
+        min-width: 0;
+      }
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .76);
+      box-shadow: 0 14px 36px rgba(6, 45, 38, .06);
+    }
+
+    .singular {
+      background:
+        linear-gradient(180deg, #fffdf7, var(--green-50));
+      border-top: 1px solid var(--line);
+    }
+
+    .split {
+      display: grid;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+    }
+
+    .pill {
+      padding: 8px 10px;
+      border: 1px solid rgba(10, 117, 100, .18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .74);
+      color: var(--green-900);
+      font-size: .78rem;
+      font-weight: 800;
+    }
+
+    .quote-card {
+      padding: 22px;
+      background: var(--green-900);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .quote-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(120deg, transparent 0 42%, rgba(234, 210, 140, .16) 42% 43%, transparent 43%),
+        radial-gradient(circle at 100% 0, rgba(234, 210, 140, .18), transparent 35%);
+    }
+
+    .quote-card > * { position: relative; }
+
+    .quote-card p {
+      margin-bottom: 18px;
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.55rem, 7vw, 2.4rem);
+      line-height: 1.08;
+    }
+
+    .quote-card span {
+      color: rgba(255, 255, 255, .66);
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    .services {
+      background: var(--paper);
+    }
+
+    .service-stories {
+      display: grid;
+      gap: 16px;
+      margin-top: 26px;
+    }
+
+    .service-story {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+      min-height: 100%;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .82);
+      box-shadow: 0 14px 36px rgba(6, 45, 38, .06);
+      overflow: hidden;
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: var(--radius);
+      background: var(--gold-500);
+      color: white;
+      border: 1px solid rgba(155, 122, 34, .2);
+      position: relative;
+    }
+
+    .service-icon::after {
+      content: attr(data-num);
+      position: absolute;
+      right: -6px;
+      bottom: -7px;
+      color: rgba(200, 161, 59, .22);
+      font-family: "Fraunces", serif;
+      font-size: 1.25rem;
+      font-weight: 900;
+    }
+
+    .service-icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: currentColor;
+      stroke-width: 1.9;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .service-story h3 {
+      margin-bottom: 0;
+      font-size: 1.1rem;
+    }
+
+    .service-copy {
+      display: grid;
+      gap: 12px;
+    }
+
+    .service-kicker {
+      color: var(--gold-700);
+      font-size: .72rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .service-copy ul,
+    .check-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 9px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: .92rem;
+    }
+
+    .service-copy li,
+    .check-list li {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .service-copy li::before,
+    .check-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .62em;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold-500);
+      box-shadow: 0 0 0 4px rgba(200, 161, 59, .12);
+    }
+
+    @media (max-width: 719px) {
+      .service-stories {
+        display: flex;
+        gap: 12px;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding: 8px 14vw 22px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding-inline: 14vw;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .service-stories::-webkit-scrollbar {
+        display: none;
+      }
+
+      .service-story {
+        flex: 0 0 72vw;
+        max-width: 320px;
+        min-height: 100%;
+        scroll-snap-align: center;
+        transform: scale(.88);
+        opacity: .68;
+        transition: transform .24s ease, opacity .24s ease, box-shadow .24s ease;
+      }
+
+      .service-story.is-active {
+        transform: scale(1);
+        opacity: 1;
+        box-shadow: 0 18px 44px rgba(6, 45, 38, .13);
+      }
+    }
+
+    .band {
+      background: var(--green-950);
+      color: white;
+      overflow: hidden;
+    }
+
+    .band h2,
+    .band h3 { color: white; }
+
+    .band .lead,
+    .band .check-list { color: rgba(255, 255, 255, .72); }
+
+    .band .eyebrow { color: var(--gold-300); }
+
+    .band-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .panel {
+      padding: 22px;
+      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .055);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .panel::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold-500), transparent);
+    }
+
+    .panel .check-list li::before { background: var(--gold-300); }
+
+    .panel-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .visibility-icon {
+      width: 44px;
+      height: 44px;
+      display: inline-grid;
+      place-items: center;
+      flex: 0 0 auto;
+      border-radius: var(--radius);
+      background: rgba(234, 210, 140, .14);
+      border: 1px solid rgba(234, 210, 140, .28);
+      color: var(--gold-300);
+    }
+
+    .visibility-icon svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      stroke-width: 1.9;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .panel-label {
+      color: var(--gold-300);
+      font-weight: 900;
+      font-size: .76rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 719px) {
+      .band-grid {
+        display: flex;
+        gap: 12px;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding: 8px 16px 22px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding-inline: 16px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .band-grid::-webkit-scrollbar {
+        display: none;
+      }
+
+      .band-grid .panel {
+        flex: 0 0 calc(100vw - 48px);
+        width: calc(100vw - 48px);
+        min-width: calc(100vw - 48px);
+        max-width: 430px;
+        scroll-snap-align: start;
+        transform: scale(.94);
+        transform-origin: left center;
+        opacity: .68;
+        transition: transform .24s ease, opacity .24s ease, box-shadow .24s ease;
+      }
+
+      .band-grid .panel.is-active {
+        transform: scale(1) !important;
+        opacity: 1 !important;
+        box-shadow: 0 18px 44px rgba(0, 0, 0, .18);
+      }
+    }
+
+    .events {
+      background:
+        linear-gradient(180deg, var(--green-50), #fffdf7);
+      border-top: 1px solid var(--line);
+    }
+
+    .feature-card {
+      padding: 20px;
+      min-height: 100%;
+    }
+
+    .feature-num {
+      display: inline-grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      margin-bottom: 14px;
+      border-radius: 50%;
+      background: var(--green-100);
+      color: var(--green-900);
+      font-weight: 900;
+    }
+
+    .b2b {
+      background: #fff;
+      border-top: 1px solid var(--line);
+    }
+
+    .b2b .stats-card {
+      align-self: stretch;
+      height: 100%;
+    }
+
+    .b2b .stat {
+      display: grid;
+      align-content: center;
+    }
+
+    .sector-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .sector-list span {
+      padding: 8px 10px;
+      border-radius: var(--radius);
+      background: var(--green-50);
+      color: var(--green-900);
+      font-size: .78rem;
+      font-weight: 800;
+    }
+
+    .stats-card {
+      display: grid;
+      gap: 1px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--line);
+    }
+
+    .stat {
+      padding: 18px;
+      background: var(--paper);
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--green-800);
+      font-family: "Fraunces", serif;
+      font-size: 2.2rem;
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: .82rem;
+    }
+
+    .why {
+      background: var(--paper);
+      border-top: 1px solid var(--line);
+    }
+
+    .why-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .why-item {
+      padding: 18px;
+      border-radius: var(--radius);
+      background: white;
+      border: 1px solid var(--line);
+    }
+
+    .why-item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--green-900);
+      font-size: 1rem;
+    }
+
+    .why-item p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: .92rem;
+    }
+
+    .mission {
+      padding-bottom: 96px;
+      background:
+        linear-gradient(180deg, #fff, var(--green-50));
+    }
+
+    .mission-box {
+      border-radius: var(--radius);
+      background: #fffdf7;
+      border: 1px solid rgba(200, 161, 59, .28);
+      box-shadow: 0 24px 70px rgba(6, 45, 38, .12);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .mission-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(115deg, transparent 0 58%, rgba(234, 210, 140, .18) 58% 59%, transparent 59%),
+        linear-gradient(180deg, rgba(255, 255, 255, .78), transparent);
+      pointer-events: none;
+    }
+
+    .mission-box > * { position: relative; }
+
+    .mission-grid {
+      display: grid;
+    }
+
+    .mission-copy {
+      padding: 28px;
+    }
+
+    .mission-top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .mission-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .mission-proof {
+      display: grid;
+      gap: 22px;
+      align-content: space-between;
+      min-height: 100%;
+      padding: 28px;
+      background: var(--green-950);
+      color: white;
+    }
+
+    .mission-proof h3 {
+      color: white;
+      max-width: 12ch;
+      margin-bottom: 10px;
+      font-size: clamp(1.5rem, 5vw, 2.25rem);
+      line-height: 1.03;
+    }
+
+    .mission-proof p {
+      color: rgba(255, 255, 255, .7);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+
+    .mission-points {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mission-point {
+      padding: 14px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .07);
+      border: 1px solid rgba(255, 255, 255, .1);
+    }
+
+    .mission-point strong {
+      display: block;
+      color: var(--gold-300);
+      margin-bottom: 5px;
+      font-size: .86rem;
+    }
+
+    .mission-point span {
+      color: rgba(255, 255, 255, .76);
+      font-size: .88rem;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .mission-signature {
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, .14);
+      color: var(--gold-300);
+      font-family: "Fraunces", serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+    }
+
+    .footer {
+      padding: 36px 0 92px;
+      background: var(--green-950);
+      color: white;
+    }
+
+    .footer-grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .footer-brand img {
+      width: 78px;
+      flex: 0 0 auto;
+      filter: brightness(0) invert(1) drop-shadow(0 14px 24px rgba(0, 0, 0, .18));
+      opacity: .8;
+    }
+
+    .footer p {
+      color: rgba(255, 255, 255, .68);
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    .footer h3 {
+      color: var(--gold-300);
+      font-size: .84rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+    }
+
+    .footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 9px;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, .72);
+      font-weight: 700;
+    }
+
+    .footer-bottom {
+      margin-top: 26px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, .12);
+      display: grid;
+      gap: 8px;
+      color: rgba(255, 255, 255, .54);
+      font-size: .85rem;
+    }
+
+    @media (max-width: 440px) {
+      .nav {
+        width: 100%;
+        padding: 0 12px;
+        gap: 8px;
+      }
+
+      .brand img { width: 128px; max-height: 54px; }
+
+      .topbar .btn {
+        flex: 0 0 46px;
+        width: 46px;
+        min-height: 44px;
+        padding: 0;
+        gap: 0;
+        font-size: 0;
+      }
+
+      .topbar .wa-icon { width: 18px; height: 18px; }
+
+      .footer-brand {
+        align-items: flex-start;
+      }
+
+      .footer-brand img {
+        width: 58px;
+      }
+
+      .eyebrow {
+        max-width: 100%;
+        font-size: .68rem;
+        letter-spacing: .08em;
+        line-height: 1.45;
+      }
+
+      h1 {
+        font-size: clamp(2.05rem, 10vw, 2.65rem);
+        line-height: .96;
+      }
+
+      .lead {
+        max-width: 100%;
+        font-size: .96rem;
+        overflow-wrap: break-word;
+      }
+
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity .55s ease, transform .55s ease;
+      transition-delay: var(--reveal-delay, 0s);
+    }
+
+    .hero-copy.reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (min-width: 720px) {
+      :root { --wrap: min(1120px, calc(100% - 56px)); }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        color: var(--muted);
+        font-size: .82rem;
+        font-weight: 800;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+      }
+
+      .hero { padding: 56px 0 78px; }
+      .hero-actions { display: flex; align-items: center; }
+      .hero .hero-actions { margin-top: 84px; }
+      .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .split { grid-template-columns: 1.05fr .95fr; gap: 44px; }
+      .b2b .split {
+        grid-template-columns: minmax(0, 1.35fr) minmax(360px, .8fr);
+        align-items: stretch;
+      }
+      .service-stories { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .band-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .stats-card { grid-template-columns: repeat(4, 1fr); }
+      .b2b .stats-card { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .footer-grid { grid-template-columns: 1.4fr repeat(3, 1fr); }
+      .footer-bottom { grid-template-columns: 1fr auto; align-items: center; }
+    }
+
+    @media (min-width: 1020px) {
+      .hero {
+        min-height: calc(100vh - 72px);
+        display: grid;
+        align-items: center;
+      }
+
+      .hero-grid {
+        max-width: 1320px;
+      }
+
+      .magic-object {
+        width: min(1180px, 96vw);
+      }
+
+      .magic-stage {
+        transform: translateX(-2.5vw) rotate3d(1, -1, 0, 0deg);
+      }
+
+      .section { padding: 96px 0; }
+      .panel, .feature-card, .service-story { padding: 26px; }
+      .mission-grid { grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr); }
+      .mission-copy { padding: 44px; }
+      .mission-proof { padding: 36px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="topbar">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Magic 360 accueil">
+        <img src="nav.png" alt="Magic Agence 360">
+      </a>
+      <div class="nav-links" aria-label="Sections">
+        <a href="#services">Services</a>
+        <a href="#affichage">Affichage</a>
+        <a href="#events">Événementiel</a>
+        <a href="#b2b">B2B</a>
+      </div>
+      <a class="btn btn-whatsapp shine" href="https://wa.me/21696913500?text=Bonjour%20Magic%20360%2C%20je%20veux%20parler%20de%20mon%20projet" target="_blank" rel="noopener" aria-label="Contacter">
+        <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.04 2.5a9.43 9.43 0 0 0-8.09 14.28L2.75 21.5l4.86-1.14A9.43 9.43 0 1 0 12.04 2.5Zm0 1.8a7.63 7.63 0 1 1-3.89 14.2l-.35-.2-2.49.58.62-2.39-.22-.37A7.63 7.63 0 0 1 12.04 4.3Zm-3.1 3.86c-.14 0-.37.05-.56.27-.2.22-.75.73-.75 1.78 0 1.04.77 2.05.88 2.19.11.15 1.49 2.38 3.69 3.23 1.83.71 2.2.57 2.6.54.4-.04 1.29-.52 1.47-1.03.18-.5.18-.93.13-1.02-.05-.1-.2-.15-.41-.25-.22-.11-1.29-.64-1.49-.71-.2-.08-.34-.11-.49.1-.14.22-.56.71-.68.85-.13.14-.25.16-.47.05-.21-.11-.91-.33-1.73-1.07-.64-.57-1.07-1.27-1.2-1.49-.13-.21-.01-.33.1-.44.1-.1.22-.25.32-.38.11-.12.15-.21.22-.35.07-.15.04-.27-.02-.38-.05-.11-.49-1.18-.67-1.61-.17-.42-.35-.36-.49-.37h-.42Z"/></svg>
+        <span>Contacter</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <h1 class="hero-title">
+            <span class="hero-title-line">
+              <span class="hero-title-part">Votre projet,</span>
+              <span class="hero-title-part">traité avec</span>
+            </span>
+            <span class="magic-stage" aria-label="Magic">
+              <span class="magic-shape magic-shape-star" aria-hidden="true">
+                <svg viewBox="0 0 100 100" focusable="false">
+                  <defs>
+                    <pattern id="magic-star-texture-left" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+                      <image href="assets/magic-word-texture.avif" x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"></image>
+                    </pattern>
+                  </defs>
+                  <path fill="url(#magic-star-texture-left)" d="M50 7 C56 34 66 44 93 50 C66 56 56 66 50 93 C44 66 34 56 7 50 C34 44 44 34 50 7Z"></path>
+                </svg>
+              </span>
+              <span class="magic-motion">
+                <span class="magic-object">
+                  <svg class="magic-svg" viewBox="0 0 720 230" role="img" aria-label="Magic" focusable="false">
+                    <defs>
+                      <pattern id="magic-word-texture" patternUnits="userSpaceOnUse" x="0" y="0" width="720" height="230">
+                        <image href="assets/magic-word-texture.avif" x="0" y="0" width="720" height="230" preserveAspectRatio="xMidYMid slice"></image>
+                      </pattern>
+                      <mask id="magic-handwriting-mask" maskUnits="userSpaceOnUse" x="-60" y="-80" width="840" height="390">
+                        <rect x="-60" y="-80" width="840" height="390" fill="black"></rect>
+                        <rect class="magic-write-sweep" x="-40" y="-70" width="812" height="370" rx="80" fill="white"></rect>
+                        <ellipse class="magic-write-edge" cx="0" cy="124" rx="64" ry="190" fill="white"></ellipse>
+                        <circle class="magic-dot-reveal" cx="626" cy="78" r="34"></circle>
+                      </mask>
+                    </defs>
+                    <g mask="url(#magic-handwriting-mask)">
+                      <text class="magic-depth" x="360" y="166" transform="translate(18 22)">Magic</text>
+                      <text class="magic-depth-mid" x="360" y="166" transform="translate(10 13)">Magic</text>
+                      <text class="magic-front" x="360" y="166">Magic</text>
+                    </g>
+                  </svg>
+                </span>
+              </span>
+              <span class="magic-shape magic-shape-circle" aria-hidden="true">
+                <svg viewBox="0 0 100 100" focusable="false">
+                  <defs>
+                    <pattern id="magic-star-texture-right" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+                      <image href="assets/magic-word-texture.avif" x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"></image>
+                    </pattern>
+                  </defs>
+                  <path fill="url(#magic-star-texture-right)" d="M50 7 C56 34 66 44 93 50 C66 56 56 66 50 93 C44 66 34 56 7 50 C34 44 44 34 50 7Z"></path>
+                </svg>
+              </span>
+            </span>
+          </h1>
+          <div class="hero-actions">
+            <a class="btn btn-whatsapp shine" href="https://wa.me/21696913500?text=Bonjour%20Magic%20360%2C%20je%20veux%20d%C3%A9marrer%20un%20projet" target="_blank" rel="noopener">
+              <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.04 2.5a9.43 9.43 0 0 0-8.09 14.28L2.75 21.5l4.86-1.14A9.43 9.43 0 1 0 12.04 2.5Zm0 1.8a7.63 7.63 0 1 1-3.89 14.2l-.35-.2-2.49.58.62-2.39-.22-.37A7.63 7.63 0 0 1 12.04 4.3Zm-3.1 3.86c-.14 0-.37.05-.56.27-.2.22-.75.73-.75 1.78 0 1.04.77 2.05.88 2.19.11.15 1.49 2.38 3.69 3.23 1.83.71 2.2.57 2.6.54.4-.04 1.29-.52 1.47-1.03.18-.5.18-.93.13-1.02-.05-.1-.2-.15-.41-.25-.22-.11-1.29-.64-1.49-.71-.2-.08-.34-.11-.49.1-.14.22-.56.71-.68.85-.13.14-.25.16-.47.05-.21-.11-.91-.33-1.73-1.07-.64-.57-1.07-1.27-1.2-1.49-.13-.21-.01-.33.1-.44.1-.1.22-.25.32-.38.11-.12.15-.21.22-.35.07-.15.04-.27-.02-.38-.05-.11-.49-1.18-.67-1.61-.17-.42-.35-.36-.49-.37h-.42Z"/></svg>
+              <span>Contacter</span>
+            </a>
+            <a class="btn btn-ghost" href="#services">Voir les expertises</a>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="section services" id="services">
+      <div class="wrap">
+        <p class="eyebrow reveal">Domaines d'expertise</p>
+        <h2 class="reveal">Agence 360<sup>o</sup></h2>
+        <p class="lead reveal">Neuf pôles d'excellence orchestrés ensemble pour donner à votre marque une présence claire, cohérente et rentable.</p>
+
+        <div class="service-stories">
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="01" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 7-8"/><path d="M14 7h6v6"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Stratégie</span>
+              <h3>Communication & Marketing</h3>
+              <ul>
+                <li>Stratégies marketing sur mesure</li>
+                <li>Études de marché et analyse concurrentielle</li>
+                <li>Développement de concepts innovants</li>
+                <li>Suivi et pilotage de campagnes</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="02" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M15 10l5-3v10l-5-3z"/><rect x="3" y="6" width="12" height="12" rx="2"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Image</span>
+              <h3>Production audiovisuelle</h3>
+              <ul>
+                <li>Films institutionnels</li>
+                <li>Contenus digitaux performants</li>
+                <li>Captation et diffusion live</li>
+                <li>Scénarisation et scripts percutants</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="03" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l7 4v6c0 4-3 7-7 8-4-1-7-4-7-8V7z"/><path d="M9 12l2 2 4-5"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Identité</span>
+              <h3>Création graphique & Branding</h3>
+              <ul>
+                <li>Identités visuelles mémorables</li>
+                <li>Design graphique tous supports</li>
+                <li>Supports de communication</li>
+                <li>Branding et concepts iconiques</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="04" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Performance</span>
+              <h3>Digital & Développement</h3>
+              <ul>
+                <li>Marketing digital axé performance</li>
+                <li>Community management et social media</li>
+                <li>Sites web et e-commerce sur mesure</li>
+                <li>Solutions numériques complexes</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="05" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Produit</span>
+              <h3>Packaging & Innovation</h3>
+              <ul>
+                <li>Packaging premium à fort impact</li>
+                <li>Développement de produits innovants</li>
+                <li>Emballages narratifs</li>
+                <li>Concepts adaptés à votre marché</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="06" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Expérience</span>
+              <h3>Événementiel spécialisé</h3>
+              <ul>
+                <li>Événements professionnels et grand public</li>
+                <li>Logistique et gestion complète</li>
+                <li>Scénographie et animations sur mesure</li>
+                <li>Activation avant et après événement</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="07" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="10" rx="2"/><path d="M7 19h10"/><path d="M9 15v4"/><path d="M15 15v4"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">Visibilité</span>
+              <h3>Affichage digital & outdoor</h3>
+              <ul>
+                <li>Billboards et grands formats</li>
+                <li>Écrans LED et digital signage</li>
+                <li>Plans média géolocalisés</li>
+                <li>Production, impression et pose</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="08" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 16v-5"/><path d="M12 16V8"/><path d="M16 16v-3"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">B2B</span>
+              <h3>Marketing B2B spécialisé</h3>
+              <ul>
+                <li>Positionnement par secteur</li>
+                <li>Contenus d'autorité</li>
+                <li>Génération de leads qualifiés</li>
+                <li>Nurturing et tableaux de bord</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-story reveal">
+            <div class="service-icon" data-num="09" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <div class="service-copy">
+              <span class="service-kicker">R&D</span>
+              <h3>Recherche & innovation marketing</h3>
+              <ul>
+                <li>Tests d'idées et prototypes</li>
+                <li>Analyse des tendances</li>
+                <li>Concepts différenciants</li>
+                <li>Optimisation continue</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="affichage">
+      <div class="wrap">
+        <p class="eyebrow reveal">Affichage & visibilité</p>
+        <h2 class="reveal">Être vu partout, avec le même message.</h2>
+        <p class="lead reveal">
+          Du billboard en bord de route à l'écran LED en centre commercial, Magic 360 couvre l'espace publicitaire physique et numérique avec une stratégie de placement précise.
+        </p>
+
+        <div class="band-grid">
+          <article class="panel reveal">
+            <div class="panel-head">
+              <span class="visibility-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M8 20h8"/><path d="M10 16v4"/><path d="M14 16v4"/><path d="M8 9h8"/><path d="M8 12h5"/></svg>
+              </span>
+              <div class="panel-label">Affichage digital</div>
+            </div>
+            <h3>Screens & digital signage</h3>
+            <p class="lead">Messages diffusés en temps réel sur écrans haute définition dans les lieux à fort trafic : centres commerciaux, aéroports, hôtels, showrooms et espaces corporate.</p>
+            <ul class="check-list">
+              <li>Écrans LED & LCD haute luminosité</li>
+              <li>Contenu dynamique programmable par heure ou zone</li>
+              <li>Réseaux d'écrans multi-sites pilotés centralement</li>
+              <li>Motion design et créations animées produites en interne</li>
+              <li>Reporting et analytics de performance</li>
+            </ul>
+          </article>
+          <article class="panel reveal" style="transition-delay:.1s">
+            <div class="panel-head">
+              <span class="visibility-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="9" rx="1.5"/><path d="M8 13v7"/><path d="M16 13v7"/><path d="M6 20h12"/><path d="M8 8h8"/></svg>
+              </span>
+              <div class="panel-label">Affichage outdoor</div>
+            </div>
+            <h3>Panneaux & out-of-home</h3>
+            <p class="lead">Billboards, abris-bus, façades, bâches géantes et mobilier urbain, conçus pour maximiser l'impact auprès de vos cibles.</p>
+            <ul class="check-list">
+              <li>Billboards et grands formats sur axes stratégiques</li>
+              <li>Mobilier urbain : abris-bus, colonnes, kiosques</li>
+              <li>Bâches et façades pour lancements et événements</li>
+              <li>Géolocalisation des emplacements par zone de chalandise</li>
+              <li>Impression et pose gérées intégralement</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <div class="wrap">
+        <p class="eyebrow reveal">Événementiel spécialisé</p>
+        <h2 class="reveal">Des événements qui servent vos objectifs business.</h2>
+        <p class="lead reveal">
+          Chaque projet naît d'une analyse de votre audience cible, de vos objectifs de communication et de vos enjeux business. Chaque détail est pensé pour convertir, fidéliser ou acquérir.
+        </p>
+        <div class="grid three">
+          <article class="card feature-card reveal">
+            <span class="feature-num">B2B</span>
+            <h3>Événements professionnels</h3>
+            <p class="lead">Salons sectoriels, conférences, séminaires, roadshows et assemblées générales pour générer des opportunités concrètes.</p>
+          </article>
+          <article class="card feature-card reveal">
+            <span class="feature-num">B2C</span>
+            <h3>Expériences grand public</h3>
+            <p class="lead">Lancements produits, pop-up stores, activations de marque, galas et soirées qui créent l'attachement.</p>
+          </article>
+          <article class="card feature-card reveal">
+            <span class="feature-num">ROI</span>
+            <h3>Mesure et activation</h3>
+            <p class="lead">Objectifs définis avant, résultats analysés après, suivi post-événement et activation marketing intégrée.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section b2b" id="b2b">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">Marketing B2B spécialisé</p>
+          <h2>Parler aux décideurs, pas à tout le monde.</h2>
+          <p class="lead">
+            Magic 360 construit des écosystèmes de visibilité B2B : stratégie, contenu, affichage, événementiel et digital pilotés comme un seul programme cohérent.
+          </p>
+          <ul class="check-list">
+            <li>Audit et positionnement concurrentiel</li>
+            <li>Stratégie de contenu autorité : livres blancs, cas clients, vidéos institutionnelles</li>
+            <li>Ciblage et génération de leads par secteur, taille d'entreprise et fonction</li>
+            <li>Nurturing et accompagnement commercial sur mesure</li>
+            <li>Mesure et optimisation continue par tableaux de bord</li>
+          </ul>
+          <div class="sector-list" aria-label="Secteurs B2B">
+            <span>Industrie</span><span>Finance</span><span>Technologie</span><span>Santé</span><span>Immobilier</span><span>Retail</span><span>Éducation</span><span>Institutions</span>
+          </div>
+        </div>
+        <div class="stats-card reveal" style="transition-delay:.12s">
+          <div class="stat"><strong>3x</strong><span>plus de leads qualifiés</span></div>
+          <div class="stat"><strong>60%</strong><span>réduction cycle de vente</span></div>
+          <div class="stat"><strong>100%</strong><span>sur mesure</span></div>
+          <div class="stat"><strong>360°</strong><span>couverture média intégrée</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section mission" id="contact">
+      <div class="wrap">
+        <div class="mission-box reveal">
+          <div class="mission-grid">
+            <div class="mission-copy">
+              <div class="mission-top">
+                <p class="eyebrow">Notre mission</p>
+              </div>
+              <h2>Imaginer, créer et réaliser votre succès.</h2>
+              <p class="lead">
+                Identifier vos zones d'ombre, concevoir des solutions lumineuses et les transformer en résultats concrets. Votre croissance, votre visibilité et votre domination de marché sont notre obsession depuis plus de 10 ans.
+              </p>
+              <div class="mission-actions">
+                <a class="btn btn-whatsapp shine" href="https://wa.me/21696913500?text=Bonjour%20Magic%20360%2C%20voici%20mon%20projet" target="_blank" rel="noopener">
+                  <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.04 2.5a9.43 9.43 0 0 0-8.09 14.28L2.75 21.5l4.86-1.14A9.43 9.43 0 1 0 12.04 2.5Zm0 1.8a7.63 7.63 0 1 1-3.89 14.2l-.35-.2-2.49.58.62-2.39-.22-.37A7.63 7.63 0 0 1 12.04 4.3Zm-3.1 3.86c-.14 0-.37.05-.56.27-.2.22-.75.73-.75 1.78 0 1.04.77 2.05.88 2.19.11.15 1.49 2.38 3.69 3.23 1.83.71 2.2.57 2.6.54.4-.04 1.29-.52 1.47-1.03.18-.5.18-.93.13-1.02-.05-.1-.2-.15-.41-.25-.22-.11-1.29-.64-1.49-.71-.2-.08-.34-.11-.49.1-.14.22-.56.71-.68.85-.13.14-.25.16-.47.05-.21-.11-.91-.33-1.73-1.07-.64-.57-1.07-1.27-1.2-1.49-.13-.21-.01-.33.1-.44.1-.1.22-.25.32-.38.11-.12.15-.21.22-.35.07-.15.04-.27-.02-.38-.05-.11-.49-1.18-.67-1.61-.17-.42-.35-.36-.49-.37h-.42Z"/></svg>
+                  <span>Contacter</span>
+                </a>
+                <a class="btn btn-ghost" href="tel:+21696913500">+216 96 913 500</a>
+              </div>
+            </div>
+            <aside class="mission-proof" aria-label="Méthode Magic 360">
+              <div>
+                <h3>De l'idée au terrain.</h3>
+                <p>Une même équipe pilote la stratégie, la création et l'exécution pour garder chaque action cohérente.</p>
+              </div>
+              <div class="mission-points">
+                <div class="mission-point"><strong>Clarté</strong><span>Objectifs, audiences et message alignés avant production.</span></div>
+                <div class="mission-point"><strong>Impact</strong><span>Créations pensées pour être vues, comprises et mémorisées.</span></div>
+                <div class="mission-point"><strong>Exécution</strong><span>Déploiement terrain, digital et événementiel sans rupture.</span></div>
+              </div>
+              <div class="mission-signature">Magic 360</div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="magiclogo.png" alt="Magic">
+          <p>Communication, marketing, digital, affichage et événementiel sous un même toit.</p>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#services">Communication & Marketing</a></li>
+            <li><a href="#services">Production vidéo</a></li>
+            <li><a href="#services">Création graphique</a></li>
+            <li><a href="#services">Digital & dev</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Spécialités</h3>
+          <ul>
+            <li><a href="#affichage">Affichage digital</a></li>
+            <li><a href="#affichage">Affichage outdoor</a></li>
+            <li><a href="#events">Événementiel B2B/B2C</a></li>
+            <li><a href="#b2b">Marketing B2B</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="https://wa.me/21696913500" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="tel:+21696913500">+216 96 913 500</a></li>
+            <li><a href="mailto:contact@magic360.tn">contact@magic360.tn</a></li>
+            <li><a href="#contact">Tunis, Tunisie</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Magic 360. Tous droits réservés.</span>
+        <span>On n'attend pas les tendances. On les crée.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          if (entry.target.matches(".stagger-grid")) {
+            entry.target.querySelectorAll(":scope > .reveal").forEach((item) => {
+              item.classList.add("is-visible");
+            });
+          } else {
+            entry.target.classList.add("is-visible");
+          }
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    const expertiseCarousel = document.querySelector(".service-stories");
+    const mobileCarousel = window.matchMedia("(max-width: 719px)");
+
+    if (expertiseCarousel && mobileCarousel.matches) {
+      const originals = Array.from(expertiseCarousel.children);
+      originals.forEach((card) => card.dataset.carouselOriginal = "true");
+
+      originals.slice().reverse().forEach((card) => {
+        const clone = card.cloneNode(true);
+        clone.removeAttribute("data-carousel-original");
+        clone.dataset.carouselClone = "before";
+        clone.setAttribute("aria-hidden", "true");
+        expertiseCarousel.insertBefore(clone, expertiseCarousel.firstChild);
+      });
+
+      originals.forEach((card) => {
+        const clone = card.cloneNode(true);
+        clone.removeAttribute("data-carousel-original");
+        clone.dataset.carouselClone = "after";
+        clone.setAttribute("aria-hidden", "true");
+        expertiseCarousel.appendChild(clone);
+      });
+
+      const cards = Array.from(expertiseCarousel.children);
+      let isLooping = false;
+
+      const cardStep = () => {
+        const firstCard = cards[0];
+        if (!firstCard) return 0;
+        const styles = window.getComputedStyle(expertiseCarousel);
+        return firstCard.offsetWidth + parseFloat(styles.columnGap || styles.gap || 0);
+      };
+
+      const setActiveCard = () => {
+        const carouselRect = expertiseCarousel.getBoundingClientRect();
+        const center = carouselRect.left + carouselRect.width / 2;
+        let active = cards[0];
+        let activeDistance = Infinity;
+
+        cards.forEach((card) => {
+          const rect = card.getBoundingClientRect();
+          const distance = Math.abs(rect.left + rect.width / 2 - center);
+          if (distance < activeDistance) {
+            active = card;
+            activeDistance = distance;
+          }
+          card.classList.remove("is-active");
+        });
+
+        if (active) active.classList.add("is-active");
+      };
+
+      const scrollToOriginalSet = () => {
+        const step = cardStep();
+        if (!step) return;
+        expertiseCarousel.scrollLeft = step * originals.length;
+        setActiveCard();
+      };
+
+      requestAnimationFrame(scrollToOriginalSet);
+      window.setTimeout(scrollToOriginalSet, 160);
+
+      expertiseCarousel.addEventListener("scroll", () => {
+        setActiveCard();
+        if (isLooping) return;
+
+        window.clearTimeout(expertiseCarousel._loopTimer);
+        expertiseCarousel._loopTimer = window.setTimeout(() => {
+          const step = cardStep();
+          if (!step) return;
+
+          const setWidth = step * originals.length;
+          if (expertiseCarousel.scrollLeft < setWidth * .45) {
+            isLooping = true;
+            expertiseCarousel.scrollLeft += setWidth;
+            isLooping = false;
+          } else if (expertiseCarousel.scrollLeft > setWidth * 1.55) {
+            isLooping = true;
+            expertiseCarousel.scrollLeft -= setWidth;
+            isLooping = false;
+          }
+          setActiveCard();
+        }, 80);
+      }, { passive: true });
+
+      window.addEventListener("resize", setActiveCard);
+    }
+
+    const visibilityCarousel = document.querySelector(".band-grid");
+
+    if (visibilityCarousel && mobileCarousel.matches) {
+      const panels = Array.from(visibilityCarousel.children);
+
+      const setActivePanel = () => {
+        const carouselRect = visibilityCarousel.getBoundingClientRect();
+        const edge = carouselRect.left + 16;
+        let active = panels[0];
+        let activeDistance = Infinity;
+
+        panels.forEach((panel) => {
+          const rect = panel.getBoundingClientRect();
+          const distance = Math.abs(rect.left - edge);
+          if (distance < activeDistance) {
+            active = panel;
+            activeDistance = distance;
+          }
+          panel.classList.remove("is-active");
+        });
+
+        if (active) active.classList.add("is-active");
+      };
+
+      const scrollToFirstPanel = () => {
+        visibilityCarousel.scrollLeft = 0;
+        setActivePanel();
+        if (!visibilityCarousel.querySelector(".panel.is-active") && panels[0]) {
+          panels[0].classList.add("is-active");
+        }
+      };
+
+      requestAnimationFrame(scrollToFirstPanel);
+      window.setTimeout(scrollToFirstPanel, 160);
+      window.addEventListener("load", scrollToFirstPanel, { once: true });
+
+      visibilityCarousel.addEventListener("scroll", () => {
+        window.clearTimeout(visibilityCarousel._activeTimer);
+        visibilityCarousel._activeTimer = window.setTimeout(setActivePanel, 140);
+      }, { passive: true });
+
+      window.addEventListener("resize", setActivePanel);
+    }
+
+    document.querySelectorAll(".service-stories, .grid, .band-grid").forEach((grid) => {
+      grid.classList.add("stagger-grid");
+      grid.querySelectorAll(":scope > .reveal").forEach((item, index) => {
+        item.style.setProperty("--reveal-delay", `${180 + index * 110}ms`);
+        item.classList.add("stagger-item");
+      });
+    });
+
+    document.querySelectorAll(".stagger-grid").forEach((grid) => observer.observe(grid));
+    document.querySelectorAll(".reveal:not(.stagger-item)").forEach((element) => observer.observe(element));
+
+    const hero = document.querySelector(".hero");
+    const magicMotion = document.querySelector(".magic-motion");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (hero && !reduceMotion) {
+      hero.addEventListener("pointermove", (event) => {
+        const rect = hero.getBoundingClientRect();
+        const x = ((event.clientX - rect.left) / rect.width - .5) * 2;
+        const y = ((event.clientY - rect.top) / rect.height - .5) * 2;
+
+        hero.style.setProperty("--hero-x", x.toFixed(3));
+        hero.style.setProperty("--hero-y", y.toFixed(3));
+        hero.style.setProperty("--hero-tilt-x", `${(-y * 5).toFixed(2)}deg`);
+        hero.style.setProperty("--hero-tilt-y", `${(x * 7).toFixed(2)}deg`);
+
+        if (magicMotion) {
+          magicMotion.style.transform = `rotate3d(${(-y).toFixed(3)}, ${x.toFixed(3)}, 0, 7deg) translate3d(${(x * 8).toFixed(2)}px, ${(y * 6).toFixed(2)}px, 0)`;
+        }
+      });
+
+      hero.addEventListener("pointerleave", () => {
+        hero.style.setProperty("--hero-x", "0");
+        hero.style.setProperty("--hero-y", "0");
+        hero.style.setProperty("--hero-tilt-x", "0deg");
+        hero.style.setProperty("--hero-tilt-y", "0deg");
+
+        if (magicMotion) {
+          magicMotion.style.transform = "rotate3d(1, -1, 0, 0deg) translate3d(0, 0, 0)";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
