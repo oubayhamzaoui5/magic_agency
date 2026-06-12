@@ -3,10 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magic 360 | Agence communication, marketing et événementiel en Tunisie</title>
-  <meta name="description" content="Magic 360 accompagne les marques en Tunisie avec communication, marketing, digital, affichage, événementiel, packaging et R&D marketing sous un même toit.">
+  <title>Magic 360 | Agence communication, marketing digital & événementiel en Tunisie</title>
+  <meta name="description" content="Magic 360 est une agence 360 en Tunisie spécialisée en communication, marketing digital, affichage, événementiel, branding, packaging et marketing B2B.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#062d26">
+  <link rel="canonical" href="https://magic360.tn/">
   <link rel="icon" type="image/png" href="magiclogo.png">
   <link rel="apple-touch-icon" href="magiclogo.png">
+  <meta property="og:locale" content="fr_TN">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Magic 360">
+  <meta property="og:title" content="Magic 360 | Agence communication, marketing digital & événementiel">
+  <meta property="og:description" content="Communication, marketing digital, affichage, événementiel, branding, packaging et marketing B2B sous un même toit en Tunisie.">
+  <meta property="og:url" content="https://magic360.tn/">
+  <meta property="og:image" content="https://magic360.tn/assets/hero-magic-bg.png">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:image:alt" content="Magic 360, agence de communication et marketing en Tunisie">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Magic 360 | Agence communication, marketing digital & événementiel">
+  <meta name="twitter:description" content="Agence 360 en Tunisie pour communication, marketing digital, affichage, événementiel, branding et B2B.">
+  <meta name="twitter:image" content="https://magic360.tn/assets/hero-magic-bg.png">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://magic360.tn/#organization",
+          "name": "Magic 360",
+          "url": "https://magic360.tn/",
+          "logo": "https://magic360.tn/magiclogo.png",
+          "telephone": "+21696913500",
+          "email": "contact@magic360.tn",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tunis",
+            "addressCountry": "TN"
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://magic360.tn/#agency",
+          "name": "Magic 360",
+          "url": "https://magic360.tn/",
+          "image": "https://magic360.tn/assets/hero-magic-bg.png",
+          "telephone": "+21696913500",
+          "priceRange": "$$",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Tunisie"
+          },
+          "serviceType": [
+            "Communication et marketing",
+            "Marketing digital",
+            "Affichage digital et outdoor",
+            "Événementiel",
+            "Branding",
+            "Packaging",
+            "Marketing B2B"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tunis",
+            "addressCountry": "TN"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://magic360.tn/#website",
+          "url": "https://magic360.tn/",
+          "name": "Magic 360",
+          "inLanguage": "fr-TN",
+          "publisher": {
+            "@id": "https://magic360.tn/#organization"
+          }
+        }
+      ]
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..800,70&family=Manrope:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
@@ -305,26 +380,26 @@
       display: inline-grid;
       width: min-content;
       position: relative;
-      transform-style: preserve-3d;
-      transform: rotate3d(1, -1, 0, 0deg) translate3d(0, 0, 0);
-      filter: drop-shadow(0 30px 32px rgba(6, 45, 38, .16));
       justify-self: center;
+      contain: layout;
+      will-change: transform;
     }
 
     .magic-motion {
       display: block;
-      transform-style: preserve-3d;
       transition: transform .22s ease-out;
       z-index: 2;
+      will-change: transform;
     }
 
     .magic-object {
       display: block;
       width: min(840px, 94vw);
-      transform: translateZ(64px) rotate(-1deg);
+      transform: rotate(-1deg);
       transform-origin: 50% 70%;
       animation: magicFloat 5.8s ease-in-out infinite;
       z-index: 2;
+      will-change: transform;
     }
 
     .magic-svg {
@@ -332,9 +407,7 @@
       width: 100%;
       height: auto;
       overflow: visible;
-      filter:
-        drop-shadow(0 22px 18px rgba(6, 45, 38, .18))
-        drop-shadow(0 46px 52px rgba(6, 45, 38, .13));
+      filter: drop-shadow(0 28px 32px rgba(6, 45, 38, .22));
     }
 
     .magic-svg text {
@@ -368,72 +441,17 @@
       opacity: 1;
     }
 
-    .magic-write {
-      display: none;
-      fill: none;
-      stroke: var(--gold-500);
-      stroke-width: 12px;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-dasharray: 1800;
-      stroke-dashoffset: 1800;
-      filter: drop-shadow(0 8px 10px rgba(6, 45, 38, .14));
-      animation: magicWrite 1.55s cubic-bezier(.68, 0, .18, 1) .12s forwards;
-    }
-
-    .magic-write-sweep {
-      transform-box: fill-box;
-      transform-origin: left center;
-      transform: scaleX(0);
-      animation: magicHandWrite 2.15s cubic-bezier(.55, 0, .16, 1) .18s forwards;
-    }
-
-    .magic-write-edge {
-      transform-box: fill-box;
-      transform-origin: left center;
-      transform: translateX(-56px);
-      animation: magicWriteEdge 2.15s cubic-bezier(.55, 0, .16, 1) .18s forwards;
-    }
-
-    .magic-dot-reveal {
-      fill: white;
-      opacity: 0;
-      transform-box: fill-box;
-      transform-origin: center;
-      transform: scale(.25);
-      animation: magicDotIn .24s cubic-bezier(.16, 1, .3, 1) 2.28s forwards;
-    }
-
-    .magic-fill-reveal {
-      transform-box: fill-box;
-      transform-origin: left center;
-      transform: scaleX(1);
-    }
-
-    .magic-highlight {
-      fill: none;
-      stroke: rgba(255, 255, 255, .18);
-      stroke-width: 3px;
-      transform: translate(-3px, -5px);
-    }
-
-    .magic-edge {
-      fill: none;
-      stroke: var(--gold-500);
-      stroke-width: 5px;
-      transform: translate(-5px, -7px);
-    }
 
     .magic-shape {
       position: absolute;
       display: block;
       color: var(--green-800);
       filter:
-        drop-shadow(3px 4px 0 #08483f)
-        drop-shadow(6px 8px 0 #06352f)
-        drop-shadow(0 22px 24px rgba(6, 45, 38, .18));
+        drop-shadow(4px 6px 0 #06352f)
+        drop-shadow(0 14px 18px rgba(6, 45, 38, .20));
       pointer-events: none;
       z-index: 1;
+      will-change: transform;
     }
 
     .magic-shape svg {
@@ -454,9 +472,7 @@
       width: clamp(76px, 10vw, 132px);
       height: clamp(76px, 10vw, 132px);
       opacity: 0;
-      transform:
-        translateZ(76px)
-        rotate(-12deg);
+      transform: rotate(-12deg);
       animation:
         starAppearLeft .52s cubic-bezier(.16, 1, .3, 1) 1.5s forwards,
         starFloatLeft 4.8s ease-in-out 2.02s infinite;
@@ -468,40 +484,15 @@
       width: clamp(70px, 9vw, 118px);
       height: clamp(70px, 9vw, 118px);
       opacity: 0;
-      transform:
-        translateZ(62px)
-        rotate(16deg);
+      transform: rotate(16deg);
       animation:
         starAppearRight .52s cubic-bezier(.16, 1, .3, 1) 1.58s forwards,
         starFloatRight 5.4s ease-in-out 2.1s infinite;
     }
 
     @keyframes magicFloat {
-      0%, 100% { transform: translateZ(64px) rotate(-1deg) translateY(0); }
-      50% { transform: translateZ(64px) rotate(.6deg) translateY(-6px); }
-    }
-
-    @keyframes magicWrite {
-      to { stroke-dashoffset: 0; }
-    }
-
-    @keyframes magicHandWrite {
-      to { transform: scaleX(1); }
-    }
-
-    @keyframes magicWriteEdge {
-      to { transform: translateX(716px); }
-    }
-
-    @keyframes magicDotIn {
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-
-    @keyframes magicFillReveal {
-      to { transform: scaleX(1); }
+      0%, 100% { transform: rotate(-1deg) translateY(0); }
+      50% { transform: rotate(.6deg) translateY(-6px); }
     }
 
     @keyframes titlePartIn {
@@ -514,35 +505,33 @@
     @keyframes starAppearLeft {
       from {
         opacity: 0;
-        transform: translateZ(76px) rotate(-96deg) translateY(18px) scale(.38);
+        transform: rotate(-96deg) translateY(18px) scale(.38);
       }
       to {
         opacity: 1;
-        transform: translateZ(76px) rotate(-12deg) translateY(0) scale(1);
+        transform: rotate(-12deg) translateY(0) scale(1);
       }
     }
 
     @keyframes starAppearRight {
       from {
         opacity: 0;
-        transform: translateZ(62px) rotate(110deg) translateY(18px) scale(.38);
+        transform: rotate(110deg) translateY(18px) scale(.38);
       }
       to {
         opacity: 1;
-        transform: translateZ(62px) rotate(16deg) translateY(0) scale(1);
+        transform: rotate(16deg) translateY(0) scale(1);
       }
     }
 
-
-
     @keyframes starFloatLeft {
-      0%, 100% { transform: translateZ(76px) rotate(-12deg) translateY(0) scale(1); }
-      50% { transform: translateZ(76px) rotate(-5deg) translateY(-8px) scale(1.04); }
+      0%, 100% { transform: rotate(-12deg) translateY(0) scale(1); }
+      50% { transform: rotate(-5deg) translateY(-8px) scale(1.04); }
     }
 
     @keyframes starFloatRight {
-      0%, 100% { transform: translateZ(62px) rotate(16deg) translateY(0) scale(1); }
-      50% { transform: translateZ(62px) rotate(9deg) translateY(7px) scale(1.03); }
+      0%, 100% { transform: rotate(16deg) translateY(0) scale(1); }
+      50% { transform: rotate(9deg) translateY(7px) scale(1.03); }
     }
 
     h2 {
@@ -844,6 +833,68 @@
       border-radius: 50%;
       background: var(--gold-500);
       box-shadow: 0 0 0 4px rgba(200, 161, 59, .12);
+    }
+
+    .partners {
+      background: #fffdf7;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .partners-head {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 30px;
+    }
+
+    .partners h2 {
+      max-width: 760px;
+      margin-bottom: 0;
+    }
+
+    .partners .lead {
+      max-width: 720px;
+      margin-bottom: 0;
+    }
+
+    .partners-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .partner-logo {
+      min-height: 150px;
+      padding: 24px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: 0 10px 24px rgba(6, 45, 38, .045);
+      transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+    }
+
+    .partner-logo:hover {
+      border-color: rgba(10, 117, 100, .24);
+      box-shadow: 0 16px 34px rgba(6, 45, 38, .075);
+      transform: translateY(-2px);
+    }
+
+    .partner-logo img {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      height: 98px;
+      object-fit: contain;
+    }
+
+    .partner-logo-wide img {
+      max-width: 390px;
+    }
+
+    .partner-logo-tall img {
+      height: 118px;
     }
 
     @media (max-width: 719px) {
@@ -1374,6 +1425,7 @@
         align-items: stretch;
       }
       .service-stories { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .partners-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .band-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .stats-card { grid-template-columns: repeat(4, 1fr); }
       .b2b .stats-card { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1397,11 +1449,15 @@
       }
 
       .magic-stage {
-        transform: translateX(-2.5vw) rotate3d(1, -1, 0, 0deg);
+        transform: translateX(-2.5vw);
       }
 
       .section { padding: 96px 0; }
       .panel, .feature-card, .service-story { padding: 26px; }
+      .partners-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .partner-logo { min-height: 170px; }
+      .partner-logo img { height: 112px; }
+      .partner-logo-tall img { height: 136px; }
       .mission-grid { grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr); }
       .mission-copy { padding: 44px; }
       .mission-proof { padding: 36px; }
@@ -1430,6 +1486,7 @@
         <a href="#affichage">Affichage</a>
         <a href="#events">Événementiel</a>
         <a href="#b2b">B2B</a>
+        <a href="#partenaires">Partenaires</a>
       </div>
       <a class="btn btn-whatsapp shine" href="https://wa.me/21696913500?text=Bonjour%20Magic%20360%2C%20je%20veux%20parler%20de%20mon%20projet" target="_blank" rel="noopener" aria-label="Contacter">
         <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.04 2.5a9.43 9.43 0 0 0-8.09 14.28L2.75 21.5l4.86-1.14A9.43 9.43 0 1 0 12.04 2.5Zm0 1.8a7.63 7.63 0 1 1-3.89 14.2l-.35-.2-2.49.58.62-2.39-.22-.37A7.63 7.63 0 0 1 12.04 4.3Zm-3.1 3.86c-.14 0-.37.05-.56.27-.2.22-.75.73-.75 1.78 0 1.04.77 2.05.88 2.19.11.15 1.49 2.38 3.69 3.23 1.83.71 2.2.57 2.6.54.4-.04 1.29-.52 1.47-1.03.18-.5.18-.93.13-1.02-.05-.1-.2-.15-.41-.25-.22-.11-1.29-.64-1.49-.71-.2-.08-.34-.11-.49.1-.14.22-.56.71-.68.85-.13.14-.25.16-.47.05-.21-.11-.91-.33-1.73-1.07-.64-.57-1.07-1.27-1.2-1.49-.13-.21-.01-.33.1-.44.1-.1.22-.25.32-.38.11-.12.15-.21.22-.35.07-.15.04-.27-.02-.38-.05-.11-.49-1.18-.67-1.61-.17-.42-.35-.36-.49-.37h-.42Z"/></svg>
@@ -1465,14 +1522,13 @@
                       <pattern id="magic-word-texture" patternUnits="userSpaceOnUse" x="0" y="0" width="720" height="230">
                         <image href="assets/magic-word-texture.avif" x="0" y="0" width="720" height="230" preserveAspectRatio="xMidYMid slice"></image>
                       </pattern>
-                      <mask id="magic-handwriting-mask" maskUnits="userSpaceOnUse" x="-60" y="-80" width="840" height="390">
-                        <rect x="-60" y="-80" width="840" height="390" fill="black"></rect>
-                        <rect class="magic-write-sweep" x="-40" y="-70" width="812" height="370" rx="80" fill="white"></rect>
-                        <ellipse class="magic-write-edge" cx="0" cy="124" rx="64" ry="190" fill="white"></ellipse>
-                        <circle class="magic-dot-reveal" cx="626" cy="78" r="34"></circle>
-                      </mask>
+                      <clipPath id="magic-reveal-clip" clipPathUnits="userSpaceOnUse">
+                        <rect x="-10" y="-90" width="0" height="420">
+                          <animate attributeName="width" from="0" to="742" dur="1.9s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0 0.1 1"/>
+                        </rect>
+                      </clipPath>
                     </defs>
-                    <g mask="url(#magic-handwriting-mask)">
+                    <g clip-path="url(#magic-reveal-clip)">
                       <text class="magic-depth" x="360" y="166" transform="translate(18 22)">Magic</text>
                       <text class="magic-depth-mid" x="360" y="166" transform="translate(10 13)">Magic</text>
                       <text class="magic-front" x="360" y="166">Magic</text>
@@ -1749,6 +1805,31 @@
         </div>
       </div>
     </section>
+
+    <section class="section partners" id="partenaires" aria-labelledby="partners-title">
+      <div class="wrap">
+        <div class="partners-head reveal">
+          <p class="eyebrow">Partenaires</p>
+          <h2 id="partners-title">Ils nous font confiance.</h2>
+          <p class="lead">Institutions, marques et entreprises accompagnees avec la meme exigence de clarte, d'impact et d'execution.</p>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/tunisco-sandwich-panel.png" alt="Tunisco Sandwich Panel" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/golden-tulip.png" alt="Golden Tulip" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/pharmacie-centrale-tunisie.png" alt="La Pharmacie Centrale de Tunisie" loading="lazy" decoding="async"></div>
+          <div class="partner-logo reveal"><img src="assets/partners/clean/soquibat.png" alt="Soquibat" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/rne.png" alt="Registre National des Entreprises" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/maghrebia.png" alt="Maghrebia" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/cnci.png" alt="Centre National du Cinema et de l'Image" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/delice-danone.png" alt="Delice Danone" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-tall reveal"><img src="assets/partners/clean/iecd-tunisie.png" alt="IECD Tunisie" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/spauz.png" alt="SPAUZ" loading="lazy" decoding="async"></div>
+          <div class="partner-logo reveal"><img src="assets/partners/clean/hm.png" alt="H&M" loading="lazy" decoding="async"></div>
+          <div class="partner-logo partner-logo-wide reveal"><img src="assets/partners/clean/nms.png" alt="New Medical Services" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+    </section>
+
     <section class="section mission" id="contact">
       <div class="wrap">
         <div class="mission-box reveal">
@@ -1977,7 +2058,7 @@
       window.addEventListener("resize", setActivePanel);
     }
 
-    document.querySelectorAll(".service-stories, .grid, .band-grid").forEach((grid) => {
+    document.querySelectorAll(".service-stories, .grid, .band-grid, .partners-grid").forEach((grid) => {
       grid.classList.add("stagger-grid");
       grid.querySelectorAll(":scope > .reveal").forEach((item, index) => {
         item.style.setProperty("--reveal-delay", `${180 + index * 110}ms`);
@@ -1993,29 +2074,27 @@
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     if (hero && !reduceMotion) {
+      let rafPending = false;
+      let pendingX = 0, pendingY = 0;
+
       hero.addEventListener("pointermove", (event) => {
         const rect = hero.getBoundingClientRect();
-        const x = ((event.clientX - rect.left) / rect.width - .5) * 2;
-        const y = ((event.clientY - rect.top) / rect.height - .5) * 2;
-
-        hero.style.setProperty("--hero-x", x.toFixed(3));
-        hero.style.setProperty("--hero-y", y.toFixed(3));
-        hero.style.setProperty("--hero-tilt-x", `${(-y * 5).toFixed(2)}deg`);
-        hero.style.setProperty("--hero-tilt-y", `${(x * 7).toFixed(2)}deg`);
-
-        if (magicMotion) {
-          magicMotion.style.transform = `rotate3d(${(-y).toFixed(3)}, ${x.toFixed(3)}, 0, 7deg) translate3d(${(x * 8).toFixed(2)}px, ${(y * 6).toFixed(2)}px, 0)`;
-        }
-      });
+        pendingX = ((event.clientX - rect.left) / rect.width - .5) * 2;
+        pendingY = ((event.clientY - rect.top) / rect.height - .5) * 2;
+        if (rafPending) return;
+        rafPending = true;
+        requestAnimationFrame(() => {
+          rafPending = false;
+          if (magicMotion) {
+            magicMotion.style.transform = `rotate(${(pendingX * 3).toFixed(2)}deg) translate(${(pendingX * 8).toFixed(2)}px, ${(pendingY * 5).toFixed(2)}px)`;
+          }
+        });
+      }, { passive: true });
 
       hero.addEventListener("pointerleave", () => {
-        hero.style.setProperty("--hero-x", "0");
-        hero.style.setProperty("--hero-y", "0");
-        hero.style.setProperty("--hero-tilt-x", "0deg");
-        hero.style.setProperty("--hero-tilt-y", "0deg");
-
+        rafPending = false;
         if (magicMotion) {
-          magicMotion.style.transform = "rotate3d(1, -1, 0, 0deg) translate3d(0, 0, 0)";
+          magicMotion.style.transform = "";
         }
       });
     }
