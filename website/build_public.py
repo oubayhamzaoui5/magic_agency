@@ -5,6 +5,7 @@ from urllib.parse import urlsplit, urljoin, unquote
 from hashlib import sha256
 import argparse
 import json
+import os
 import re
 import shutil
 
@@ -26,7 +27,7 @@ class References(HTMLParser):
             self.urls.update(item.strip().split()[0] for item in attrs['srcset'].split(','))
 
 
-def build(output):
+def build(output, live_links=False):
     output = Path(output).resolve()
     if output == ROOT or ROOT.is_relative_to(output) or (output.exists() and any(output.iterdir())):
         raise ValueError('Choose an empty output directory, separate from the source root.')
@@ -56,12 +57,20 @@ def build(output):
         if not target.is_file():
             raise FileNotFoundError(relative)
         files.add(target)
+    if live_links:
+        entries = {source.relative_to(ROOT).parts[0] for source in files}
+        allowed = {'index.html', 'assets', 'directions', 'robots.txt', 'sitemap.xml', 'magiclogo.png', 'logo.png', 'nav.png'}
+        if not entries.issubset(allowed):
+            raise ValueError('Live delivery must contain only the approved static entry points.')
+        for name in sorted(entries):
+            (output/name).symlink_to(os.path.relpath(ROOT/name, output), target_is_directory=(ROOT/name).is_dir())
     manifest = []
     for source in sorted(files):
         relative = source.relative_to(ROOT)
         target = output/relative
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source, target)
+        if not live_links:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, target)
         manifest.append({'path': relative.as_posix(), 'bytes': target.stat().st_size, 'sha256': sha256(target.read_bytes()).hexdigest()})
     return manifest
 
@@ -70,7 +79,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', required=True)
     parser.add_argument('--manifest', required=True)
+    parser.add_argument('--live-links', action='store_true', help='Linux server: link approved static entry points in a clean Git checkout so pulls update the live files.')
     args = parser.parse_args()
-    manifest = build(args.output)
+    manifest = build(args.output, live_links=args.live_links)
     Path(args.manifest).write_text(json.dumps(manifest, indent=2), encoding='utf-8')
     print(f'Built {len(manifest)} public files, {sum(item["bytes"] for item in manifest)} bytes.')
