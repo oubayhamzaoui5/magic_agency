@@ -1,2 +1,19 @@
 skills/
 logo.ai
+.impeccable/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+/output/
+/website/qa*/
+/website/*-review.jpg
+# Generated source masters stay in the local full-source snapshot.
+# Optimized delivery assets and generation prompts are versioned.
+/assets/hero/*.png
+/assets/magic/*.png
+!/assets/magic/magic-logo.png
+/assets/concepts/*.png
+/assets/magic-about/*.png
+/assets/services/*.png
+/assets/service-icons/originals/

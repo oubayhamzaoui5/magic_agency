@@ -1,0 +1,84 @@
+{
+  "status": "applied",
+  "sectionPosition": "Immediately below #partenaires, before #services",
+  "layout": "Reference layout: small left label and rule, large heading, supporting statement, body and CTA; large square image at right. Shared section gutters; stack on phones. Outfit + DM Sans, Lime Studio.",
+  "copy": {
+    "label": "UNE MARQUE, UNE DIRECTION.",
+    "heading": "Des idées dispersées ? Faisons-en une marque.",
+    "subheading": "Une direction claire. Une marque qui se reconnaît, partout.",
+    "body": "Un logo d’un côté, un site de l’autre, des contenus qui ne se ressemblent pas ? Magic relie stratégie, identité et création pour construire un univers cohérent. Du premier message aux supports digitaux et aux expériences sur le terrain, chaque élément raconte la même histoire.",
+    "cta": "Parlons de votre marque",
+    "target": "#contact",
+    "headingLines": [
+      "Des idées dispersées ?",
+      "Faisons-en une marque."
+    ]
+  },
+  "generator": "built-in image_gen",
+  "concepts": [
+    {
+      "id": "fil-conducteur",
+      "name": "Le fil conducteur",
+      "idea": "Magic gives scattered brand materials one coherent direction.",
+      "prompt": "Use case: ads-marketing. Create ONE square 1:1 premium editorial campaign photograph, not a webpage, not a collage, for Magic 360, a playful, bold Tunisian creative agency. This image will fill a large square on the RIGHT of a text-left/image-right website section. Art direction: imaginative physical set design, tactile real materials, convincing photographic lighting, sophisticated editorial advertising, believable perspective and anatomy. Palette anchors: deep forest #102F29, logo green #0B6959, electric pale lime #D8F36A, ivory #F5F8EE; use the additional scene colors stated below. Fill frame with the idea, keep all important objects inside a 6% safe area for rounded corners. No text, no letters, no logos, no watermark, no AI robots, no glowing digital UI, no generic teamwork stock-photo composition. The subject is an illustrative creative concept, not a real agency employee or client. Scene: an airy sky-blue studio cyclorama with soft sunlike shadows. A stylish North African woman in her early thirties, wearing a forest-green work jacket and ivory trousers, stands naturally in a three-quarter full-body portrait. She calmly holds a single long, wide satin LIME ribbon with both hands; the ribbon physically winds in one elegant continuous line between a few suspended tangible objects: a blank poster board, a sculptural packaging carton, a blank closed book, and a simple portrait-format screen with solid abstract color blocks. Every object shares one forest/ivory graphic visual language without any typography. The ribbon is the striking unifying device, not a knot or a tangle. Rich fabric texture, elegant purposeful pose, natural face, sculptural editorial set, slightly low camera viewpoint, crisp medium-format photography. Balanced composition with person central-right and objects arranged around her, spacious blue backdrop. Make it feel like a bold fashion/editorial campaign, not an infographic.",
+      "number": 1,
+      "asset": "/assets/magic-about/fil-conducteur.png",
+      "sourcePath": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a33a-4384-7642-be43-0cc1ce9dfc05\\exec-6085a2b0-1673-4a7a-aaed-875577f574d2.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "sortir-du-cadre",
+      "name": "Sortir du cadre",
+      "idea": "Magic helps a brand become distinctive and visible.",
+      "prompt": "Use case: ads-marketing. Create ONE square 1:1 premium editorial campaign photograph, not a webpage, not a collage, for Magic 360, a playful, bold Tunisian creative agency. This image will fill a large square on the RIGHT of a text-left/image-right website section. Art direction: imaginative physical set design, tactile real materials, convincing photographic lighting, sophisticated editorial advertising, believable perspective and anatomy. Palette anchors: deep forest #102F29, logo green #0B6959, electric pale lime #D8F36A, ivory #F5F8EE; use the additional scene colors stated below. Fill frame with the idea, keep all important objects inside a 6% safe area for rounded corners. No text, no letters, no logos, no watermark, no AI robots, no glowing digital UI, no generic teamwork stock-photo composition. The subject is an illustrative creative concept, not a real agency employee or client. Scene: a sunlit warm apricot studio with a huge freestanding, thick FOREST-GREEN picture frame, like a tangible architectural doorway. A confident North African male creative in his late twenties, with curly hair, an ivory overshirt and dark forest trousers, is caught mid-step moving naturally THROUGH the frame toward the camera. One hand casually holds a rolled lime poster. Behind the frame are muted flat stacked paper panels; in front, bold lime and ivory folded-paper sculptures open out into dimensional space. Physical paper and painted timber, no magic glow. Strong perspective and dynamic yet plausible human gesture; face visible, hands and feet anatomically clean. Eye-level slightly wide editorial fashion photograph, generous apricot background, warm crisp sunlight, premium set design. One strong central metaphor: moving beyond a generic frame into a distinctive world.",
+      "number": 2,
+      "asset": "/assets/magic-about/sortir-du-cadre.png",
+      "sourcePath": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a33a-4384-7642-be43-0cc1ce9dfc05\\exec-a27eb892-4fb9-4db7-ad3f-13c041c1f7d2.png",
+      "width": 1254,
+      "height": 1254,
+      "responsiveAssets": {
+        "480": "/assets/magic-about/sortir-du-cadre-480.webp",
+        "900": "/assets/magic-about/sortir-du-cadre-900.webp",
+        "1254": "/assets/magic-about/sortir-du-cadre-1254.webp"
+      }
+    },
+    {
+      "id": "tout-se-repond",
+      "name": "Tout se répond",
+      "idea": "Magic makes every brand touchpoint feel part of the same identity.",
+      "prompt": "Use case: ads-marketing. Create ONE square 1:1 premium editorial campaign photograph, not a webpage, not a collage, for Magic 360, a playful, bold Tunisian creative agency. This image will fill a large square on the RIGHT of a text-left/image-right website section. Art direction: imaginative physical set design, tactile real materials, convincing photographic lighting, sophisticated editorial advertising, believable perspective and anatomy. Palette anchors: deep forest #102F29, logo green #0B6959, electric pale lime #D8F36A, ivory #F5F8EE; use the additional scene colors stated below. Fill frame with the idea, keep all important objects inside a 6% safe area for rounded corners. No text, no letters, no logos, no watermark, no AI robots, no glowing digital UI, no generic teamwork stock-photo composition. The subject is an illustrative creative concept, not a real agency employee or client. Scene: a beautifully art-directed physical still life on a warm ivory seamless backdrop. An oversized open artist's accordion portfolio is the central sculptural object, with four panels folding upward in a rhythmic zigzag. These panels connect a forest-green packaging box, a portrait-format screen showing only a bold lime circle on ivory, a textured printed poster with forest and lime abstract curved shapes, and an ivory invitation card. The same simple graphic curved shape repeats in the objects, making one coherent visual system across different media. One pair of human hands entering subtly from the lower frame carefully adjusts the final panel. Everything is tactile: thick paper edges, matte cardboard, screen glass, beautifully controlled soft shadows. Low three-quarter product-photo angle, precise composition, punchy lime focal points, understated forest structure. No writing anywhere, no fake brand names, no UI labels. Bold sophisticated design-magazine still life, not floating 3D objects.",
+      "number": 3,
+      "asset": "/assets/magic-about/tout-se-repond.png",
+      "sourcePath": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a33a-4384-7642-be43-0cc1ce9dfc05\\exec-ca36dcb9-c455-4899-8198-9086a03cf929.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "faire-entendre",
+      "name": "Faire entendre sa marque",
+      "idea": "Magic turns a brand's message into a recognizable presence.",
+      "prompt": "Use case: ads-marketing. Create ONE square 1:1 premium editorial campaign photograph, not a webpage, not a collage, for Magic 360, a playful, bold Tunisian creative agency. This image will fill a large square on the RIGHT of a text-left/image-right website section. Art direction: imaginative physical set design, tactile real materials, convincing photographic lighting, sophisticated editorial advertising, believable perspective and anatomy. Palette anchors: deep forest #102F29, logo green #0B6959, electric pale lime #D8F36A, ivory #F5F8EE; use the additional scene colors stated below. Fill frame with the idea, keep all important objects inside a 6% safe area for rounded corners. No text, no letters, no logos, no watermark, no AI robots, no glowing digital UI, no generic teamwork stock-photo composition. The subject is an illustrative creative concept, not a real agency employee or client. Scene: a saturated pale sky-blue outdoor-studio set with a visible softly lit blue sky and a simple ivory plinth. A stylish North African woman, around thirty, wearing a lime sleeveless tailored jacket over a white shirt and dark forest trousers, stands beside a gigantic beautifully crafted FOREST-GREEN megaphone made of folded textured paper, nearly as tall as she is. She confidently steadies the megaphone with one natural hand and looks toward the distance with an engaged smile; she is not screaming. From the mouth of the megaphone extends one sculptural arc of several large ivory and lime paper sheets, frozen as a purposeful graphic wave of communication. Sheets carry only abstract color shapes, no text. The subject and megaphone are fully visible, dimensional paper edges obvious, striking but restrained composition. Premium conceptual editorial advertising photo with believable scale, natural fabric and skin, crisp optimistic daylight, no toy look and no cartoon rendering.",
+      "number": 4,
+      "asset": "/assets/magic-about/faire-entendre.png",
+      "sourcePath": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a33a-4384-7642-be43-0cc1ce9dfc05\\exec-d7c7cfa5-6851-4def-a7d1-7960dc81a275.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "idee-partout",
+      "name": "Une idée, partout",
+      "idea": "Magic carries one creative idea coherently across web, packaging, campaigns and events.",
+      "prompt": "Use case: ads-marketing. Create ONE square 1:1 premium editorial campaign photograph, not a webpage, not a collage, for Magic 360, a playful, bold Tunisian creative agency. This image will fill a large square on the RIGHT of a text-left/image-right website section. Art direction: imaginative physical set design, tactile real materials, convincing photographic lighting, sophisticated editorial advertising, believable perspective and anatomy. Palette anchors: deep forest #102F29, logo green #0B6959, electric pale lime #D8F36A, ivory #F5F8EE; use the additional scene colors stated below. Fill frame with the idea, keep all important objects inside a 6% safe area for rounded corners. No text, no letters, no logos, no watermark, no AI robots, no glowing digital UI, no generic teamwork stock-photo composition. The subject is an illustrative creative concept, not a real agency employee or client. Scene: a meticulously built tactile miniature brand world photographed from an elevated three-quarter angle, not isometric vector art. On a pale ivory tabletop, a continuous LIME paper road winds through four small but richly crafted physical scenes: a tiny forest-green packaging display, a portrait-format digital poster screen showing an ivory circle on green, a simple billboard of matching abstract lime/forest curves, and a miniature event entrance arch with the same graphic pattern. One full-size human hand enters from the upper edge, gently placing the final ivory arch, revealing the intentionally playful scale. Everything shares one cohesive visual language without words or logos. Materials are real cut paper, fine cardboard, painted wood and frosted acrylic. A few cobalt-blue accents give campaign energy against forest and lime; warm photographic shadows, incredibly crisp craft detail, strong clear central composition. Make an imaginative premium design-studio campaign photograph, not a board game, no labels, no UI, no people figurines.",
+      "number": 5,
+      "asset": "/assets/magic-about/idee-partout.png",
+      "sourcePath": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a33a-4384-7642-be43-0cc1ce9dfc05\\exec-f399367a-d2bf-4eb7-95c5-7965d418d93a.png",
+      "width": 1254,
+      "height": 1254
+    }
+  ],
+  "generatedDate": "2026-11-03",
+  "selectedConceptId": "sortir-du-cadre",
+  "notes": "Five generated illustrative concepts, not actual staff/client/project evidence. Main website remains unchanged until image choice. Exact prompts retained per concept.",
+  "selectedConceptName": "Sortir du cadre"
+}

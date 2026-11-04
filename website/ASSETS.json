@@ -1,0 +1,62 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-10-28",
+  "usage": "Fictional illustrative concepts, not commissioned client work",
+  "assets": [
+    {
+      "name": "packaging",
+      "prompt": "Use case: product-mockup. Create one premium landscape 3:2 editorial product photograph for a Tunisian creative agency portfolio concept. Fictional olive oil brand 'ZÉRA', exact simple text ZÉRA on labels. Three sculptural dark green glass olive oil bottles, ivory labels with bold forest-green modern serif type, gold caps, small printed green and ivory packaging boxes, one natural olive branch and a few olives. Beautiful warm ivory plinths with curved arch, warm direct Mediterranean light and tactile shadows, art-directed contemporary brand design, expensive and believable real product photography. Mostly forest green #08443a, pale cream #fffaf0, golden olive accents. Product occupies center 75%, clean and memorable composition. No real client logos, no watermarks, no website UI, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-478853df-c71a-4164-89b6-57ddd8027063.png",
+      "master": "assets/concepts/packaging.png",
+      "responsive": [
+        "assets/concepts/packaging-480.webp",
+        "assets/concepts/packaging-900.webp",
+        "assets/concepts/packaging-1400.webp"
+      ]
+    },
+    {
+      "name": "campaign",
+      "prompt": "Use case: ads-marketing. Single landscape 3:2 photorealistic campaign mockup for fictional Tunisian culture festival 'HORIZON'. A beautiful large outdoor street poster in a clean concrete frame on sunlit cream Tunis Mediterranean architecture, subtle palm shadow. Poster is bold deep forest green with oversized ivory modern sans text 'HORIZON' and small 'LE SON. LA MER. LA VIE.' with a graphic golden sun and organic teal wave, sophisticated Swiss editorial music poster. Close enough poster visually fills 65% of frame. Street candid photography, texture, sunlight, excellent professional advertising craft. Green cream and golden yellow palette. No actual agency/client claims, no watermark, no UI.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-6d47dba6-e55a-4edf-ae9f-c6807bdb63c4.png",
+      "master": "assets/concepts/campaign.png",
+      "responsive": [
+        "assets/concepts/campaign-480.webp",
+        "assets/concepts/campaign-900.webp",
+        "assets/concepts/campaign-1400.webp"
+      ]
+    },
+    {
+      "name": "event",
+      "prompt": "Use case: photorealistic-natural. Landscape 3:2 environmental photograph of an imagined premium brand launch event in a Mediterranean outdoor courtyard at blue hour. A beautifully constructed deep forest green sculptural stage with warm gold lighting, illuminated arch, gold overhead fabric and green abstract identity, subtle fictional word 'RENCONTRES' on stage. Audience naturally seen from behind in the lower edge, small groups of guests, no recognizable faces or celebrities, documentary feeling, no posed stock office group. Strong architectural image, rich deep green, cream stone, amber lighting. Agency portfolio illustrative concept, no real brands or watermark.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-8f51aa20-65db-4d0a-bb9a-c1bf69c1b045.png",
+      "master": "assets/concepts/event.png",
+      "responsive": [
+        "assets/concepts/event-480.webp",
+        "assets/concepts/event-900.webp",
+        "assets/concepts/event-1400.webp"
+      ]
+    },
+    {
+      "name": "hospitality",
+      "prompt": "Use case: product-mockup. Landscape 3:2 editorial photograph of sophisticated fictional Mediterranean boutique hospitality identity 'MAISON NŪR'. Beautiful ivory and forest-green hotel stationery, debossed menu cover reading 'MAISON NŪR', large gold serif letter N, green keycard, folded ivory linen, one ceramic cup of coffee and sunlight through slats. Refined graphic design and physical materials, travertine surface, dark green cloth and polished gold detail. Angled close-up, tactile paper, natural imperfect shadows, premium hospitality branding agency portfolio image, no actual brands, no watermark, no collage or website UI.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-e2607d34-4d29-4352-8171-03b23b3c1ed5.png",
+      "master": "assets/concepts/hospitality.png",
+      "responsive": [
+        "assets/concepts/hospitality-480.webp",
+        "assets/concepts/hospitality-900.webp",
+        "assets/concepts/hospitality-1400.webp"
+      ]
+    },
+    {
+      "name": "digital",
+      "prompt": "Use case: product-mockup. Landscape 3:2 premium commercial photograph for an agency concept campaign. Two vivid yellow-green aluminum sparkling beverage cans with exact large dark-green type 'SOLI' and tiny 'CITRON' beside a floating-looking but physically supported smartphone on matte forest-green plinths. Smartphone displays bold cream and green branded social campaign graphic with a cut lemon and exact text 'UN ZESTE DE SOLEIL'. Fresh sliced lemon in foreground, playful sharp advertising art direction, candid realistic material reflections, strong sunlight shadow, lime/gold accents on primarily forest green and ivory backdrop. No real brands, watermark, no collage, high-end studio still life.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-7741cd32-8421-4188-83dd-bc20a4007545.png",
+      "master": "assets/concepts/digital.png",
+      "responsive": [
+        "assets/concepts/digital-480.webp",
+        "assets/concepts/digital-900.webp",
+        "assets/concepts/digital-1400.webp"
+      ]
+    }
+  ]
+}

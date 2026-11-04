@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-01",
+  "provider": "Built-in image_gen",
+  "accepted": "Strategy compass unchanged.",
+  "direction": "Single compact objects matching the accepted compass: branding swatch fan, digital globe and cursor, event ticket.",
+  "assets": [
+    {
+      "key": "marque",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-37266f23-c7fd-4a72-bfed-42f0685d44e1.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360. Supplied compass is the approved STYLE REFERENCE ONLY. Match its premium deep forest-green glazed enamel, warm ivory ceramic, satin brass, upper-left light, and compact near-front three-quarter view. Same object collection as the compass. One familiar bold object, sculptural and tactile, simple enough to read at48px. Palette strictly forest #062d26, teal #0c7564, ivory #fffaf0 and warm gold. Square canvas, complete object centered with8% safe margin, fills85%, genuine transparent alpha background. No ground plane, external shadow, enclosing badge, words, letters, numbers, watermark or logo. One icon only, not a sheet. Subject: BRANDING: a compact fan of THREE thick rounded rectangular color-swatch cards, joined at bottom by one brass pivot. Front card deep forest-green enamel; middle card ivory; back card muted teal. Very fine satin brass rim. One large embossed gold four-point magician's sparkle on front card. Single coherent swatch-fan object with strong silhouette. No stamp, paper sheet, hand, brush, sample labels or extra accessories.",
+      "original": "assets/service-icons/originals/marque-v2.png",
+      "web": [
+        "assets/service-icons/marque-v2-144.png",
+        "assets/service-icons/marque-v2-288.png"
+      ]
+    },
+    {
+      "key": "visibilite",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-db26dfed-bb2f-4cfc-ae4e-6291c81a8b13.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360. Supplied compass is the approved STYLE REFERENCE ONLY. Match its premium deep forest-green glazed enamel, warm ivory ceramic, satin brass, upper-left light, and compact near-front three-quarter view. Same object collection as the compass. One familiar bold object, sculptural and tactile, simple enough to read at48px. Palette strictly forest #062d26, teal #0c7564, ivory #fffaf0 and warm gold. Square canvas, complete object centered with8% safe margin, fills85%, genuine transparent alpha background. No ground plane, external shadow, enclosing badge, words, letters, numbers, watermark or logo. One icon only, not a sheet. Subject: DIGITAL PRESENCE: one forest-green enamel globe with three bold satin brass meridians and one gold equator. A large ivory computer cursor arrow projects from lower right as an integrated raised emblem. Clean compact globe-and-pointer object, same visual weight as compass. No continents, stand, browser, phone, cable or floating extra icons. Bold simple readable geometry.",
+      "original": "assets/service-icons/originals/visibilite-v2.png",
+      "web": [
+        "assets/service-icons/visibilite-v2-144.png",
+        "assets/service-icons/visibilite-v2-288.png"
+      ]
+    },
+    {
+      "key": "experience",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-259006e2-c0e5-4bf5-ae45-caeab130790b.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360. Supplied compass is the approved STYLE REFERENCE ONLY. Match its premium deep forest-green glazed enamel, warm ivory ceramic, satin brass, upper-left light, and compact near-front three-quarter view. Same object collection as the compass. One familiar bold object, sculptural and tactile, simple enough to read at48px. Palette strictly forest #062d26, teal #0c7564, ivory #fffaf0 and warm gold. Square canvas, complete object centered with8% safe margin, fills85%, genuine transparent alpha background. No ground plane, external shadow, enclosing badge, words, letters, numbers, watermark or logo. One icon only, not a sheet. Subject: EVENTS: one single thick forest-green enamel admission ticket with rounded corners and characteristic semicircular inward cutouts centered on its two short ends. Slim satin brass rim; one bold raised ivory four-point magic sparkle on face. Ticket angled gently up toward right, completely visible. No writing, tiny perforations, arch, stage, people, confetti, lanyard or other ticket. Simple recognizable event object.",
+      "original": "assets/service-icons/originals/experience-v2.png",
+      "web": [
+        "assets/service-icons/experience-v2-144.png",
+        "assets/service-icons/experience-v2-288.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "lanes": [
+    [
+      {
+        "image": "hero/miro",
+        "label": "MIRO"
+      },
+      {
+        "image": "hero/pogo",
+        "label": "POGO"
+      },
+      {
+        "image": "hero/forma",
+        "label": "FORMA"
+      },
+      {
+        "image": "hero/tempo",
+        "label": "TEMPO"
+      },
+      {
+        "image": "hero/bloom",
+        "label": "BLOOM"
+      }
+    ],
+    [
+      {
+        "image": "hero/rive",
+        "label": "RIVE"
+      },
+      {
+        "image": "hero/onda",
+        "label": "ONDA"
+      },
+      {
+        "image": "hero/kova",
+        "label": "KOVA"
+      },
+      {
+        "image": "hero/tera",
+        "label": "TERA"
+      },
+      {
+        "image": "hero/orbit",
+        "label": "ORBIT"
+      }
+    ],
+    [
+      {
+        "image": "hero/luma",
+        "label": "LUMA"
+      },
+      {
+        "image": "hero/nori",
+        "label": "NORI"
+      },
+      {
+        "image": "hero/folio",
+        "label": "FOLIO"
+      },
+      {
+        "image": "hero/vela",
+        "label": "VELA"
+      }
+    ]
+  ]
+}

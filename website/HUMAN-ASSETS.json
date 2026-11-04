@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "mode": "built-in image_gen",
+  "purpose": "Accepted-direction refinement: fictional colorful campaign concepts and explicitly illustrated creative process",
+  "assets": [
+    {
+      "name": "pulse",
+      "prompt": "Use case: product-mockup. Landscape 3:2 high-end playful independent creative studio campaign photograph for FICTIONAL audio brand PULSE. Chunky sculptural cobalt-blue over-ear headphones with small cream PULSE lettering, blue retail box with huge modern rounded cream PULSE typography, coiled citrus-yellow cable on a vivid pale acid-yellow set. A cream block and curved cobalt acrylic panel, art-directed asymmetry, close perspective, premium tangible materials, little natural scuff and believable reflections, polished commercial craft. Big dramatic simple objects, energetic but refined; headphones and packaging occupy 80% of frame. Color cobalt, buttery yellow, cream; not muted luxury beige. No actual brand logos, watermark, UI or collage. Exact brand text PULSE, minimal other text.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-f0136edc-7853-492e-b7b5-2a2a1c344139.png",
+      "master": "assets/magic/pulse.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "grain",
+      "prompt": "Use case: product-mockup. Landscape 3:2 rich commercial photograph of a FICTIONAL specialty coffee brand GRAIN. Two tactile burnt-orange coffee bags with oversized deep forest-green custom serif text GRAIN, a short ivory ceramic cup of espresso, a chunky dark green clip and a few coffee beans on a warm cream surface. A human hand with natural skin texture casually holds a third small orange pack at the frame edge, correct anatomy, no face visible. Strong warm side light, visible crinkles in paper, subtle imperfect natural shadows, masterful product art direction with a human touch. Orange, dark green, ivory and coffee brown. Sophisticated playful packaging, confident large typography. No real brand or watermark, no UI, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-16cb45c6-d032-4cdf-80c1-3f387369636b.png",
+      "master": "assets/magic/grain.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "palma",
+      "prompt": "Use case: ads-marketing. Landscape 3:2 premium fictional sun-care brand PALMA campaign. One coral-red sunscreen tube and a turquoise-teal bottle with giant cream modern lettering PALMA, supported by warm cream curved poolside architecture. A naturally textured human hand enters from one side to pick up the coral tube, correctly formed fingers; no faces. Water caustics and palm shadow on surfaces, sliced tangerine, joyful bright Mediterranean sunlight, tangible real droplets, candid imperfection within immaculate professional campaign art direction. Coral red, turquoise, cream and warm golden sunlight. Products large in frame. FICTIONAL brand concept, no actual brands, no watermark, no website UI or collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-5e9ff698-0b1b-44fd-bf0c-6c33a2bd5af0.png",
+      "master": "assets/magic/palma.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "creative-table",
+      "prompt": "Use case: photorealistic-natural. Landscape 3:2 candid editorial photograph illustrating creative work, NOT an actual agency office. Close view from above of two people's hands at a working design table. One hand holds a torn burnt-orange paper swatch over a cream mockup coffee bag marked GRAIN in dark green, another writes a small visual annotation with a dark pencil; correct natural hand anatomy, faces and bodies out of frame. A lavender NAYA cosmetic packaging concept, vivid cobalt art card, paper sketches of a four-point sparkle, gold foil sample, a small espresso and imperfect cut paper scraps. Lived-in tactile printed work, subtle ink marks and soft directional daylight, photoreal documentary texture, not a posed stock-office photo, not an overly tidy flat lay. Emerald, cream, burnt orange, cobalt and lilac. The hands and tactile detail are focal; no computer screens, no real brands, no Magic logo approximation, no watermark, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-2809c288-3258-4aa2-9e54-2a05c69e6378.png",
+      "master": "assets/magic/creative-table.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}

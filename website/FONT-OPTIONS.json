@@ -1,0 +1,96 @@
+{
+  "status": "applied",
+  "palette": "Lime Studio",
+  "options": [
+    {
+      "id": "bricolage",
+      "name": "Bricolage Grotesque + DM Sans",
+      "heading": "Bricolage Grotesque",
+      "body": "DM Sans",
+      "headingWeight": 800,
+      "mood": "Playful, expressive, approachable"
+    },
+    {
+      "id": "space",
+      "name": "Space Grotesk + DM Sans",
+      "heading": "Space Grotesk",
+      "body": "DM Sans",
+      "headingWeight": 700,
+      "mood": "Graphic, precise, contemporary"
+    },
+    {
+      "id": "syne",
+      "name": "Syne + DM Sans",
+      "heading": "Syne",
+      "body": "DM Sans",
+      "headingWeight": 800,
+      "mood": "Wide, bold, art-directed"
+    },
+    {
+      "id": "fraunces",
+      "name": "Fraunces + Manrope",
+      "heading": "Fraunces",
+      "body": "Manrope",
+      "headingWeight": 700,
+      "mood": "Editorial, warm, crafted"
+    },
+    {
+      "id": "manrope",
+      "name": "Manrope",
+      "heading": "Manrope",
+      "body": "Manrope",
+      "headingWeight": 800,
+      "mood": "Current baseline: clean, direct, familiar"
+    },
+    {
+      "id": "anton",
+      "name": "Anton + DM Sans",
+      "heading": "Anton",
+      "body": "DM Sans",
+      "headingWeight": 400,
+      "mood": "Condensed, poster-like, punchy"
+    },
+    {
+      "id": "archivo",
+      "name": "Archivo Black + DM Sans",
+      "heading": "Archivo Black",
+      "body": "DM Sans",
+      "headingWeight": 400,
+      "mood": "Heavy, graphic, confident"
+    },
+    {
+      "id": "outfit",
+      "name": "Outfit + DM Sans",
+      "heading": "Outfit",
+      "body": "DM Sans",
+      "headingWeight": 800,
+      "mood": "Rounded, friendly, modern"
+    },
+    {
+      "id": "sora",
+      "name": "Sora + DM Sans",
+      "heading": "Sora",
+      "body": "DM Sans",
+      "headingWeight": 800,
+      "mood": "Geometric, digital, crisp"
+    },
+    {
+      "id": "dm-serif",
+      "name": "DM Serif Display + DM Sans",
+      "heading": "DM Serif Display",
+      "body": "DM Sans",
+      "headingWeight": 400,
+      "mood": "Editorial, elegant, expressive"
+    },
+    {
+      "id": "unbounded",
+      "name": "Unbounded + DM Sans",
+      "heading": "Unbounded",
+      "body": "DM Sans",
+      "headingWeight": 700,
+      "mood": "Wide, futuristic, unconventional"
+    }
+  ],
+  "selectedFontId": "outfit",
+  "selectedFontName": "Outfit + DM Sans"
+}

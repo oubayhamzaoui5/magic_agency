@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-04",
+  "generator": "built-in image_gen",
+  "purpose": "Individual service imagery for selected L’éditorial layout",
+  "assets": [
+    {
+      "id": "positionnement",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-83760259-7d17-4da3-910a-241fc232ab97.png",
+      "master": "assets/services/positionnement.png",
+      "prompt": "Use case: ads-marketing. Create ONE premium landscape 3:2 campaign photograph for Magic 360's services editorial. Full bleed, no borders, no contact sheet, not a webpage. Bold independent design-studio art direction comparable to the existing MIRO and FORMA hero photographs: tactile objects, striking scale, crisp sunlight and deep sculpted shadows, excellent detail and optical composition. Forest #102F29, ivory #F5F8EE and acid lime #D8F36A brand anchors with selective cobalt and apricot. Main artwork must read clearly at 400px wide. Important objects fully inside a 7% safe margin. Fictional illustrative brand work. No real brand logos, watermarks, AI motifs, stock meeting scenes or decorative laptop desks. Subject: brand positioning made tangible. Top-down premium still life on forest green: a large ivory sheet with a single powerful lime circular graphic, one saturated cobalt sculptural geometric packaging object and three neatly spaced printed audience portrait cards with natural diverse faces, their color swatches and one crisp lime paper strip connecting the objects. One elegant hand places the central card. An authored editorial strategy board, not a messy moodboard. Only large exact title 'LE CAP' on the central sheet, no tiny writing. Color blocks and purposeful spacing. Main sheet angled slightly for photographic depth.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/positionnement-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19610
+        },
+        {
+          "path": "assets/services/positionnement-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 38870
+        },
+        {
+          "path": "assets/services/positionnement-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 72560
+        }
+      ]
+    },
+    {
+      "id": "messages",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-d286c14e-2782-4283-a3eb-7766aa804a66.png",
+      "master": "assets/services/messages.png",
+      "prompt": "Use case: ads-marketing. Create ONE premium landscape 3:2 campaign photograph for Magic 360's services editorial. Full bleed, no borders, no contact sheet, not a webpage. Bold independent design-studio art direction comparable to the existing MIRO and FORMA hero photographs: tactile objects, striking scale, crisp sunlight and deep sculpted shadows, excellent detail and optical composition. Forest #102F29, ivory #F5F8EE and acid lime #D8F36A brand anchors with selective cobalt and apricot. Main artwork must read clearly at 400px wide. Important objects fully inside a 7% safe margin. Fictional illustrative brand work. No real brand logos, watermarks, AI motifs, stock meeting scenes or decorative laptop desks. Subject: voice and brand messaging as a bold typographic editorial object. On a warm apricot seamless set, three oversized thick folded printed paper sheets stand as sculptural shapes. Exact large words on separate sheets: 'BONJOUR.' in forest on ivory, 'ET SI ?' in ivory on cobalt, 'ENSEMBLE.' in forest on acid lime. Strong typographic sizes, real embossed ink and paper edges, hard sideways daylight, slight physical overlap, beautifully composed three-quarter camera angle. No other readable text, no speech bubble graphics. Sophisticated physical advertising still life.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/messages-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23114
+        },
+        {
+          "path": "assets/services/messages-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 56838
+        },
+        {
+          "path": "assets/services/messages-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 136432
+        }
+      ]
+    },
+    {
+      "id": "plan-communication",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-f436b5eb-30b4-483a-9111-c0665fb77b28.png",
+      "master": "assets/services/plan-communication.png",
+      "prompt": "Use case: ads-marketing. Create ONE premium landscape 3:2 campaign photograph for Magic 360's services editorial. Full bleed, no borders, no contact sheet, not a webpage. Bold independent design-studio art direction comparable to the existing MIRO and FORMA hero photographs: tactile objects, striking scale, crisp sunlight and deep sculpted shadows, excellent detail and optical composition. Forest #102F29, ivory #F5F8EE and acid lime #D8F36A brand anchors with selective cobalt and apricot. Main artwork must read clearly at 400px wide. Important objects fully inside a 7% safe margin. Fictional illustrative brand work. No real brand logos, watermarks, AI motifs, stock meeting scenes or decorative laptop desks. Subject: a communication launch plan translated into a sculptural editorial still life. On pale ivory studio ground, a continuous broad forest-green folded paper pathway rises through three levels, physically connecting a small cobalt printed poster with exact word 'BIENTÔT', a lime launch invitation with exact word 'C’EST PARTI', and an apricot square publication with exact word 'À SUIVRE'. One subtly visible natural human hand finishes positioning the invitation. Materials: heavyweight paper, satin card, polished acrylic accent. Three-quarter elevated photograph, clear bold hierarchy, no charts, UI, grids or tiny labels. Premium designed campaign, concise and tangible.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/plan-communication-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 17600
+        },
+        {
+          "path": "assets/services/plan-communication-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 33452
+        },
+        {
+          "path": "assets/services/plan-communication-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 60076
+        }
+      ]
+    },
+    {
+      "id": "identite-visuelle",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-00b234f1-962c-4e2a-94d8-0a091dc82fda.png",
+      "master": "assets/services/identite-visuelle.png",
+      "prompt": "Use case: product-mockup. Create ONE premium landscape 3:2 photograph for a Magic 360 service feature. Full bleed independent design-studio brand campaign photography, bold blocks of color, crisp tactile material detail, exceptional directional sunlight and hard shadows. Original illustrative fictional work, not client evidence. Brand VELA is a contemporary amber-fragrance house, thick uppercase forest-green wordmark VELA, luminous amber/apricot/ivory/forest colors with judicious acid-lime accents. Main objects fully within 7% safe margins and readable at thumbnail size. No webpage, no contact sheet, no stock office, no real logos, no watermarks. Subject: a complete visual identity shown through an elegant physical stationery set: one large ivory brand manual open to a forest-green VELA wordmark and large apricot circle, forest-green business cards with ivory VELA letters, one embossed textured envelope, a short printed typographic specimen, and an amber translucent acrylic circle casting warm light. Flat lay with precise editorial spacing on apricot ground. Keep writing extremely sparse: VELA only, all other content uses clean geometric swatches and letterforms. Confident original typographic identity, not crowded.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/identite-visuelle-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12742
+        },
+        {
+          "path": "assets/services/identite-visuelle-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 25808
+        },
+        {
+          "path": "assets/services/identite-visuelle-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 52988
+        }
+      ]
+    },
+    {
+      "id": "packaging-edition",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-8983731c-5ee7-447b-bc87-7485532bb9f8.png",
+      "master": "assets/services/packaging-edition.png",
+      "prompt": "Use case: product-mockup. Create ONE premium landscape 3:2 photograph for a Magic 360 service feature. Full bleed independent design-studio brand campaign photography, bold blocks of color, crisp tactile material detail, exceptional directional sunlight and hard shadows. Original illustrative fictional work, not client evidence. Brand VELA is a contemporary amber-fragrance house, thick uppercase forest-green wordmark VELA, luminous amber/apricot/ivory/forest colors with judicious acid-lime accents. Main objects fully within 7% safe margins and readable at thumbnail size. No webpage, no contact sheet, no stock office, no real logos, no watermarks. Subject: luxurious VELA fragrance packaging and edition. One sculptural amber perfume bottle with minimal ivory label reading VELA, a sharply folded forest-green carton with large ivory VELA, an open thick ivory booklet with a bold apricot circular die-cut cover. Beautiful uncoated paper, visible debossing, amber glass caustics, matte forest color. All three complete objects on warm apricot stone risers; sophisticated low three-quarter product photo, graphic monumental framing, bright sunlight. No flowers or generic luxury marble, no other writing.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/packaging-edition-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19942
+        },
+        {
+          "path": "assets/services/packaging-edition-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 50830
+        },
+        {
+          "path": "assets/services/packaging-edition-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 113808
+        }
+      ]
+    },
+    {
+      "id": "direction-artistique",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-2721b364-3de2-414b-bc4b-ebf2f7f0c18d.png",
+      "master": "assets/services/direction-artistique.png",
+      "prompt": "Use case: product-mockup. Create ONE premium landscape 3:2 photograph for a Magic 360 service feature. Full bleed independent design-studio brand campaign photography, bold blocks of color, crisp tactile material detail, exceptional directional sunlight and hard shadows. Original illustrative fictional work, not client evidence. Brand VELA is a contemporary amber-fragrance house, thick uppercase forest-green wordmark VELA, luminous amber/apricot/ivory/forest colors with judicious acid-lime accents. Main objects fully within 7% safe margins and readable at thumbnail size. No webpage, no contact sheet, no stock office, no real logos, no watermarks. Subject: the finished VELA fragrance advertising campaign as a bold physical poster installation. One large apricot advertising poster mounted on a simple forest-green panel with a single huge amber glass bottle and precise dark-green wordmark VELA. In the foreground the real amber VELA bottle sits on an ivory plinth and a natural hand holds a translucent apricot acrylic disc, creating a powerful circle of colored light over the display. Deliberate fashion editorial composition, tactile ink, no contact-sheet moodboard, no screens or studio equipment. Wider lens, hard sun, clear strong shapes and almost surreal but plausible scale.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/direction-artistique-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 17890
+        },
+        {
+          "path": "assets/services/direction-artistique-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 42518
+        },
+        {
+          "path": "assets/services/direction-artistique-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 92626
+        }
+      ]
+    },
+    {
+      "id": "sites-web",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-d5412f81-da2c-4e98-9cc9-d42fba93cc2e.png",
+      "master": "assets/services/sites-web.png",
+      "prompt": "Use case: ads-marketing. Create ONE landscape 3:2 premium editorial campaign photograph for Magic 360 services. Bold art-directed independent studio work with big confident shapes, tactile materials, photographic realism, vivid color blocking, sculpted sunlight/shadows and excellent thumbnail legibility like a premium creative agency hero campaign. Full bleed, important objects fully inside 7% safe area. No real brand logos, no watermarks, no contact sheets, no page layout or explanatory captions. Subject: a fictional drinks brand ONDA's beautifully designed e-commerce website presented on a single realistic large thin desktop monitor. Art-directed saturated cobalt studio, chunky lime platform. The screen shows an elegantly clear ivory/cobalt storefront with large wordmark ONDA, a hero photograph of a sculptural cobalt sparkling-water can with lime citrus, three neat product thumbnails beneath and a small simple 'Découvrir' button. The monitor is straight enough for screen to be readable, one physical ONDA can and lime wedge sits beside its base. Exact ONDA lettering only plus Découvrir, remaining microcopy understated. Editorial hardware photography, no laptop, no keyboard clutter, no floating screens. Hero-quality brand graphics integrated in the website.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/sites-web-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20340
+        },
+        {
+          "path": "assets/services/sites-web-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 45378
+        },
+        {
+          "path": "assets/services/sites-web-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 87610
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-322dbdd5-d67b-4eb2-be65-58b4f136fec8.png",
+      "master": "assets/services/social-media.png",
+      "prompt": "Use case: ads-marketing. Create ONE landscape 3:2 premium editorial campaign photograph for Magic 360 services. Bold art-directed independent studio work with big confident shapes, tactile materials, photographic realism, vivid color blocking, sculpted sunlight/shadows and excellent thumbnail legibility like a premium creative agency hero campaign. Full bleed, important objects fully inside 7% safe area. No real brand logos, no watermarks, no contact sheets, no page layout or explanatory captions. Subject: a compelling ONDA beverage social-media campaign. One elegant smartphone upright on apricot cylindrical plinth, front screen shows a realistic clean Instagram-style single post with cobalt ONDA can, lime citrus and huge headline 'FAITES DES VAGUES'. Beside the phone, two oversized real printed social square designs stand at slight angles, one cobalt with large ivory ONDA lettering, the other acid-lime with a sharply photographed cobalt can and water splash. Warm apricot seamless background, expressive but orderly physical arrangement, realistic phone dimensions and glass highlights. All three designs share an outstanding coherent brand language, no dashboard charts or engagement numbers, no random tiny gibberish. No actual platform logo required.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/social-media-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24558
+        },
+        {
+          "path": "assets/services/social-media-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 52006
+        },
+        {
+          "path": "assets/services/social-media-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 96586
+        }
+      ]
+    },
+    {
+      "id": "photo-video-motion",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-a3bda365-f193-4213-b953-77198c116968.png",
+      "master": "assets/services/photo-video-motion.png",
+      "prompt": "Use case: ads-marketing. Create ONE landscape 3:2 premium editorial campaign photograph for Magic 360 services. Bold art-directed independent studio work with big confident shapes, tactile materials, photographic realism, vivid color blocking, sculpted sunlight/shadows and excellent thumbnail legibility like a premium creative agency hero campaign. Full bleed, important objects fully inside 7% safe area. No real brand logos, no watermarks, no contact sheets, no page layout or explanatory captions. Subject: an arresting behind-the-scenes ONDA drinks campaign production still. Foreground a large professional cinema camera shown partly from the side, fully plausible lens and cage, aimed at a sharply lit cobalt ONDA can and fresh lime balanced on a sculptural ivory pedestal. Main can and lime are completely visible and visually dominant; a single suspended translucent cobalt acrylic wave catches light behind them, physical rig support outside frame. Acid-lime studio cyclorama and a small forest-green light flag make a beautiful graphic composition. One crew hand naturally adjusts a reflector at edge of image. Hard light, high-end product-shoot craft, crisp texture, no stock office or generic filmmaking clapperboard. Exact can lettering ONDA only.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/photo-video-motion-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24616
+        },
+        {
+          "path": "assets/services/photo-video-motion-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 53498
+        },
+        {
+          "path": "assets/services/photo-video-motion-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 98784
+        }
+      ]
+    },
+    {
+      "id": "scenographie",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-521fd927-4583-46fa-a493-a02ea578c0fd.png",
+      "master": "assets/services/scenographie.png",
+      "prompt": "Use case: ads-marketing. Create ONE landscape 3:2 premium editorial campaign photograph for Magic 360 services. Bold art-directed independent studio work with big confident shapes, tactile materials, photographic realism, vivid color blocking, sculpted sunlight/shadows and excellent thumbnail legibility like a premium creative agency hero campaign. Full bleed, important objects fully inside 7% safe area. No real brand logos, no watermarks, no contact sheets, no page layout or explanatory captions. Subject: a bold MUSE cultural event scenography in a Mediterranean stone courtyard, matching a cultural brand in cobalt blue, warm apricot, ivory and acid-lime. A monumental sculptural cobalt ribbon forms an open entrance arch; tall acid-lime fabric banners with exact oversized stacked letters 'MU' above 'SE' frame it. Apricot modular plinths, warm concealed lighting, precise wayfinding, a few beautifully dressed natural visitors at believable scale. Atmospheric late-afternoon photography, deep shadows and sunlit stone, a little olive foliage. Architecture and human scale visible, contemporary premium art-event design, not a festival crowd, no conference stock photo. Strong landscape framing.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/scenographie-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 38762
+        },
+        {
+          "path": "assets/services/scenographie-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 89520
+        },
+        {
+          "path": "assets/services/scenographie-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 167806
+        }
+      ]
+    },
+    {
+      "id": "invitations-signaletique",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a39b-5956-75f1-b67a-f3d413f5a44f\\exec-b5614af1-2e03-4e5f-b96b-2f48741c57c5.png",
+      "master": "assets/services/invitations-signaletique.png",
+      "prompt": "Use case: ads-marketing. Create ONE landscape 3:2 premium editorial campaign photograph for Magic 360 services. Bold art-directed independent studio work with big confident shapes, tactile materials, photographic realism, vivid color blocking, sculpted sunlight/shadows and excellent thumbnail legibility like a premium creative agency hero campaign. Full bleed, important objects fully inside 7% safe area. No real brand logos, no watermarks, no contact sheets, no page layout or explanatory captions. Subject: MUSE cultural event invitations, printed program and physical wayfinding design. Precise still life on pale limestone in warm daylight: an oversized apricot invitation card with exact cobalt 'MU' over 'SE', a thick ivory folded program with large cobalt curved sculpture photograph and short word MUSE, a forest-green lanyard with acid-lime visitor badge, and a small freestanding cobalt directional sign bearing a simple ivory arrow. One natural hand holds the invitation by its lower edge. An acid-lime ribbon makes one confident curve, hard olive-leaf shadow at edge. Tactile beautifully printed paper, clear typographic craft, warm Mediterranean mood and strong editorial composition. No small writing, no contact sheet, no screen.",
+      "width": 1536,
+      "height": 1024,
+      "responsive": [
+        {
+          "path": "assets/services/invitations-signaletique-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 32338
+        },
+        {
+          "path": "assets/services/invitations-signaletique-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 72534
+        },
+        {
+          "path": "assets/services/invitations-signaletique-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 147804
+        }
+      ]
+    }
+  ]
+}

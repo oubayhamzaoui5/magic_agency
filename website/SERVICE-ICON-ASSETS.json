@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-10-30",
+  "provider": "Built-in image_gen",
+  "direction": "Forest-green enamel, ivory ceramic and brass. Strategy: compass; branding: maker's stamp; digital: connected browser and phone; events: stage and audience.",
+  "assets": [
+    {
+      "key": "strategie",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-b5f40b76-3c86-4c6e-89bc-4c338530bafd.png",
+      "prompt": "Use case: stylized-concept. Asset: a single premium illustrated service icon for Magic 360, a playful Tunisian creative agency website. Subject: STRATEGY, a beautiful compact compass whose four-point needle is shaped like a magician's sparkle, pointing decisively northeast. One simple circular instrument, thick sculpted forest-green rim, warm ivory face, gold needle and one tiny gold accent; no letters, no numerals, no fine tick marks. Art direction: tactile miniature made from glazed deep forest-green enamel and warm ivory ceramic, with restrained satin brass details. Crafted editorial product illustration, slightly asymmetric and charming, crisp silhouette, not childish, not generic clay emoji. Three-quarter near-front view with only subtle depth, soft directional studio lighting upper left, clear dark outline-like mass and large simple readable forms. Palette exclusively forest #062d26, teal #0c7564, ivory #fffaf0, warm gold #ead28c. Composition: one object centered within a square canvas, fills 85% of frame with consistent 8% safe padding, fully visible without crop. Designed to read clearly at 56 pixels on a pale mint website. Isolated on genuine transparent alpha background, no background plane, no badge, no enclosing square, no ground shadow, no text, no logo, no watermark, no extra objects. Deliver one icon only, not an icon sheet.",
+      "original": "assets/service-icons/originals/strategie.png",
+      "web": [
+        "assets/service-icons/strategie-144.png",
+        "assets/service-icons/strategie-288.png"
+      ]
+    },
+    {
+      "key": "marque",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-e3d0d968-387e-48b2-ac01-f87783fbbd45.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360, a playful Tunisian creative agency. Input image is a STYLE REFERENCE ONLY, not an edit target: match its forest-green glazed enamel, warm ivory ceramic, restrained satin brass, soft upper-left studio lighting and near-front three-quarter viewpoint. The new icon must belong to the exact same set as the supplied compass, with the same visual weight, high craft, crisp silhouettes and restrained dimensionality. Palette only forest #062d26, teal #0c7564, ivory #fffaf0 and gold #ead28c. Centered fully visible isolated object, square canvas, 8% safe margin, fills about85%, true transparent alpha background. Simple large forms readable at64px. No words, letters, numerals, logos, watermark, badges, enclosing square, ground plane, shadow outside the object or extraneous decoration. One icon only, not a sheet. Subject: BRANDING / memorable identity: a compact artisan rubber stamp, with a rounded forest-green enamel handle and a warm brass stamp base, resting at a slight angle over one small thick ivory brand card. The card has one bold forest-green four-point magic sparkle imprint. Single recognizable stamp-and-mark composition, two large elements only. Make the sparkle imprint strongly visible. No letters, no writing, no tiny marks. Slight tactile sculptural charm, elegant and editorial.",
+      "original": "assets/service-icons/originals/marque.png",
+      "web": [
+        "assets/service-icons/marque-144.png",
+        "assets/service-icons/marque-288.png"
+      ]
+    },
+    {
+      "key": "visibilite",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-7a6b2d79-621e-4c01-bb7b-f9091fc000b7.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360, a playful Tunisian creative agency. Input image is a STYLE REFERENCE ONLY, not an edit target: match its forest-green glazed enamel, warm ivory ceramic, restrained satin brass, soft upper-left studio lighting and near-front three-quarter viewpoint. The new icon must belong to the exact same set as the supplied compass, with the same visual weight, high craft, crisp silhouettes and restrained dimensionality. Palette only forest #062d26, teal #0c7564, ivory #fffaf0 and gold #ead28c. Centered fully visible isolated object, square canvas, 8% safe margin, fills about85%, true transparent alpha background. Simple large forms readable at64px. No words, letters, numerals, logos, watermark, badges, enclosing square, ground plane, shadow outside the object or extraneous decoration. One icon only, not a sheet. Subject: DIGITAL PRESENCE / website and social: one compact forest-green desktop browser window behind a smaller ivory smartphone to its front-right. Thick sculpted dark green frames, ivory screens; a single large gold four-point magic sparkle on the browser and one simple teal rectangular content block on the phone. One short curved golden connector links both screens. Two screens only, no keyboard, no stand, no floating notification icons, no writing, no tiny interface details. Strong uncluttered silhouette.",
+      "original": "assets/service-icons/originals/visibilite.png",
+      "web": [
+        "assets/service-icons/visibilite-144.png",
+        "assets/service-icons/visibilite-288.png"
+      ]
+    },
+    {
+      "key": "experience",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-4c8e29ed-8bd6-4aa9-85fe-89142516ee5d.png",
+      "prompt": "Use case: stylized-concept. Create ONE NEW service icon for Magic 360, a playful Tunisian creative agency. Input image is a STYLE REFERENCE ONLY, not an edit target: match its forest-green glazed enamel, warm ivory ceramic, restrained satin brass, soft upper-left studio lighting and near-front three-quarter viewpoint. The new icon must belong to the exact same set as the supplied compass, with the same visual weight, high craft, crisp silhouettes and restrained dimensionality. Palette only forest #062d26, teal #0c7564, ivory #fffaf0 and gold #ead28c. Centered fully visible isolated object, square canvas, 8% safe margin, fills about85%, true transparent alpha background. Simple large forms readable at64px. No words, letters, numerals, logos, watermark, badges, enclosing square, ground plane, shadow outside the object or extraneous decoration. One icon only, not a sheet. Subject: EVENTS / people meeting in a memorable place: one small sculptural forest-green stage with a simple sweeping arch and a shallow oval ivory platform. A single large gold four-point sparkle hangs in the arch's center like a spotlight; two small solid ivory audience silhouettes in front, round heads and simple bodies, no facial detail. Bold graphic miniature with no curtains, no confetti, no stairs, no extra architecture, no text. Single coherent welcoming event scene, extremely simplified enough to read at64px.",
+      "original": "assets/service-icons/originals/experience.png",
+      "web": [
+        "assets/service-icons/experience-144.png",
+        "assets/service-icons/experience-288.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "applied",
+  "logoAnchor": "#0B6959",
+  "palettes": [
+    {
+      "id": 1,
+      "name": "Lime Studio",
+      "mood": "Bold · energetic · contemporary",
+      "brand": "#0B6959",
+      "background": "#102F29",
+      "text": "#F5F8EE",
+      "accent": "#D8F36A",
+      "surface": "#E2EAD7",
+      "button": "#0B6959",
+      "buttonText": "#FFFFFF"
+    },
+    {
+      "id": 2,
+      "name": "Corail Papier",
+      "mood": "Warm · confident · Mediterranean",
+      "brand": "#0B6959",
+      "background": "#FAF3EA",
+      "text": "#173C34",
+      "accent": "#C34632",
+      "surface": "#E8D9C7",
+      "button": "#C34632",
+      "buttonText": "#FFFFFF"
+    },
+    {
+      "id": 3,
+      "name": "Lavande Créative",
+      "mood": "Expressive · fresh · unexpected",
+      "brand": "#0B6959",
+      "background": "#EDE6F6",
+      "text": "#2B2039",
+      "accent": "#7542A2",
+      "surface": "#FCFAFF",
+      "button": "#7542A2",
+      "buttonText": "#FFFFFF"
+    },
+    {
+      "id": 4,
+      "name": "Bleu Atelier",
+      "mood": "Clean · graphic · precise",
+      "brand": "#0B6959",
+      "background": "#EAF1F7",
+      "text": "#172D45",
+      "accent": "#2855BF",
+      "surface": "#FCFCF7",
+      "button": "#2855BF",
+      "buttonText": "#FFFFFF"
+    },
+    {
+      "id": 5,
+      "name": "Rose Éditorial",
+      "mood": "Creative · tactile · fashion-minded",
+      "brand": "#0B6959",
+      "background": "#F4E0E7",
+      "text": "#3C2535",
+      "accent": "#AB315C",
+      "surface": "#FFF8FA",
+      "button": "#AB315C",
+      "buttonText": "#FFFFFF"
+    }
+  ],
+  "selectedPaletteId": 1,
+  "selectedPaletteName": "Lime Studio"
+}

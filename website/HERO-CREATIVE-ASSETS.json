@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-01",
+  "mode": "built-in image_gen",
+  "purpose": "14 original fictional brand creatives, replacing landscape hero rotation with native portrait and near-square artwork.",
+  "assets": [
+    {
+      "id": "pogo",
+      "brand": "POGO",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-a777af1a-a9a8-4429-912d-1e34741b3271.png",
+      "master": "assets/hero/pogo.png",
+      "prompt": "Use case: ads-marketing. Asset: one original premium brand campaign image for a creative agency's scrolling hero gallery, comparable in craft and variety to Superside portfolio tiles, but entirely original artwork. Fictional brand POGO, energetic modern burger delivery. Portrait canvas aspect ratio 0.68:1 (approximately 1020x1500), full bleed. Art direction: brilliant tomato-red seamless studio background, photorealistic glistening cheeseburger elevated on crumpled cream branded wrapping paper, a single bold acid-yellow curving graphic ribbon interacting with the burger, dramatic hard daylight shadows, tactile food styling and clean appetizing detail. Large expressive cream custom rounded wordmark 'POGO' in upper quarter, fully visible with 12% side safe margins. Small optional words 'GOOD MOOD FOOD' in lower area. Precise editorial composition, premium campaign art direction, not a collage or contact sheet. Keep entire burger and key typography within middle 78% of image width. No frame, no agency logo, no watermark, no invented interface.",
+      "width": 1035,
+      "height": 1520,
+      "aspect": 0.680921,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "miro",
+      "brand": "MIRO",
+      "requestedAspect": ".9067",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-a853714b-deb3-4d18-a91a-34d2433e9c8e.png",
+      "master": "assets/hero/miro.png",
+      "prompt": "Use case: product-mockup. Create ONE original luxury skincare campaign tile for fictional brand MIRO. Portrait near-square aspect ratio 0.9067:1 (roughly 1100x1213); full bleed, not a collage. Unexpected art direction: pale pistachio background, one beautifully lit dark-skinned hand holding a translucent violet sculptural serum bottle upright, a single silver fluid swoosh and tactile lime paper insert. Exact oversized dark plum serif wordmark 'MIRO' integrated into upper background with safe 12% side margins. Bottle also reads MIRO. Editorial beauty photography with real skin texture, elegant highlights and hard sculpted shadows; premium independent design studio portfolio work. Restrained, sophisticated, excellent optical typography, clear big shapes at thumbnail size. Entire bottle and wordmark inside frame. No UI, no watermarks, no extra text.",
+      "width": 1194,
+      "height": 1317,
+      "aspect": 0.906606,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "tera",
+      "brand": "TERA",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-8fa5812f-44ae-4060-9405-3049e4b38517.png",
+      "master": "assets/hero/tera.png",
+      "prompt": "Use case: ads-marketing. One original fictional outdoor sports brand TERA campaign, portrait aspect ratio 0.68:1 about 1020x1500, full bleed. Dynamic art-directed photo of a complete sculptural chalk-white trail running sneaker with black tread and small acid-yellow details, floating diagonally above a rugged black volcanic rock, against brilliant acid-yellow background. One vivid red climbing cord makes a single energetic arc. Exact bold black geometric wordmark 'TERA' near top, ample margins and fully readable. Tiny secondary 'GO FURTHER' at bottom if useful. Dramatic flash, precision athletic materials, dust suspended, premium sporty campaign. Main sneaker wholly inside middle 80% width, tasteful scale, graphic hierarchy. Not a mockup board, no collage, no real shoe logos, no watermark.",
+      "width": 1035,
+      "height": 1519,
+      "aspect": 0.681369,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "forma",
+      "brand": "FORMA",
+      "requestedAspect": ".9067",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-cfb61bb3-0d96-4627-8d3e-d0dd3a85d2e1.png",
+      "master": "assets/hero/forma.png",
+      "prompt": "Use case: product-mockup. One original editorial design portfolio image for fictional architecture journal FORMA. Portrait near-square aspect ratio 0.9067:1, full bleed. Photorealistic close-up of a large sculptural cream art book held open by two natural human hands over a rich burnt-ochre tabletop. Book pages display a dramatic black-and-white photograph of curved modernist architecture on one side and a masterful asymmetric typographic layout with the exact headline 'FORMA' on the other. The visible book cover peeks out underneath, embossed cobalt blue FORMA typography. Fine uncoated paper edges, believable binding, hard afternoon window light with angled shadow. Art-school editorial taste, sparse but confident Swiss typography, varied visual texture, premium agency portfolio. Key page and wordmark inside frame, no giant overlay wordmark, no collage, no watermarks.",
+      "width": 1194,
+      "height": 1317,
+      "aspect": 0.906606,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "luma",
+      "brand": "LUMA",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-2fa3fdea-1c2c-48a6-a968-ff21214f6e08.png",
+      "master": "assets/hero/luma.png",
+      "prompt": "Use case: ads-marketing. ONE original premium industrial-design campaign for fictional portable lighting brand LUMA, portrait canvas aspect ratio0.68:1 about1020x1500. Full bleed deep saturated cobalt studio backdrop and floor. Hero: sculptural tangerine-orange mushroom-shaped cordless metal table lamp, switched on with warm light under its broad shade; a reflective polished-chrome sphere nearby catches the orange and blue. Visually daring still life, slightly low camera, glossy powdercoat versus chrome versus matte cobalt, dramatic controlled lighting, outstanding product realism. Large thin cream custom geometric wordmark 'LUMA' above lamp, centered and fully inside safe margins. Only text LUMA. Entire lamp visible, central object with 12% side breathing room. Premium design agency portfolio, not generic ecommerce, no collage, no watermark.",
+      "width": 1036,
+      "height": 1518,
+      "aspect": 0.682477,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "onda",
+      "brand": "ONDA",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-cf676592-a7dd-4d40-b2dd-6d97e44cb082.png",
+      "master": "assets/hero/onda.png",
+      "prompt": "Use case: ads-marketing. ONE full-bleed original graphic campaign poster for fictional electronic music festival ONDA. Tall portrait canvas aspect ratio .68:1. Art direction: brutally elegant typographic poster on warm black uncoated paper, oversized tightly set cream word 'ONDA' stacked once near top, enormous abstract inflated polished-chrome ribbon twisted like a sound wave across central composition, vivid fluorescent orange rectangular paper strip crossing behind it. Small exact text 'SOUND IN MOTION' and 'LIVE SESSIONS' as restrained Swiss editorial details. Three-quarter photographed print pinned against charcoal textured wall, realistic ink and paper, physically convincing chrome reflection, intentional dramatic typography and negative space. The entire ONDA headline stays within 10% margins. Powerful portfolio creative like a top international independent design studio. No interface, no collage grid, no watermarks.",
+      "width": 1034,
+      "height": 1521,
+      "aspect": 0.679816,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "rive",
+      "brand": "RIVE",
+      "requestedAspect": ".9067",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-f6119a5b-ab2e-4fb6-9b01-ce5b7deec414.png",
+      "master": "assets/hero/rive.png",
+      "prompt": "Use case: product-mockup. ONE original premium fictional coastal hotel brand RIVE identity campaign image. Portrait near-square aspect ratio .9067:1. Sun-drenched tactile still life photographed from above: large cream linen beach tote with beautifully embroidered deep navy serif wordmark 'RIVE', cobalt blue hotel key card and ivory postcard with minimal graphic sun, a small elegant folded blue paper guide. Laid on natural pale travertine beside a swimming pool, turquoise water caustics and precise palm shadows, one sunlit mandarin adds a restrained orange accent. Everything feels expensive, warm, Mediterranean and art-directed rather than generic resort photography. Entire central tote and RIVE name inside frame with generous breathing room. Bold simple branded shape readable small. No scene collage, no watermark, no client claims.",
+      "width": 1194,
+      "height": 1317,
+      "aspect": 0.906606,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "nori",
+      "brand": "NORI",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-ab265e03-66cc-49a1-b5e6-95e92fe40e51.png",
+      "master": "assets/hero/nori.png",
+      "prompt": "Use case: ads-marketing. ONE original fictional modern Japanese takeaway brand NORI creative campaign. Tall portrait aspect .68:1, full bleed. Playful high-end still-life photography: pale peach-pink seamless backdrop, deep jade-green origami takeaway box open like a flower containing four meticulously styled sushi pieces, a second green paper sleeve with a huge cream rounded 'NORI' wordmark leaning behind, and two slim black chopsticks angled cleanly through composition. Large jade 'NORI' wordmark placed comfortably in top fifth of canvas. Warm sophisticated food photography, salmon, seaweed and rice textures extremely real, editorial graphic composition, sculptural shadows, extraordinary delicious color contrast. All key packaging and brand wordmarks entirely visible with 10% margins. No collage, no generic food spread, no watermark.",
+      "width": 1034,
+      "height": 1521,
+      "aspect": 0.679816,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "alto",
+      "brand": "Alto",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-de8d2882-f981-413d-9855-4581353121d3.png",
+      "master": "assets/hero/alto.png",
+      "prompt": "Use case: ads-marketing. ONE original fictional financial technology brand ALTO creative campaign image, tall portrait .68:1, full bleed. Art direction: sophisticated 3D meets digital product, rich lavender studio background, a large sculptural translucent milky-glass upward arch rising from a matte lilac pedestal, a black smartphone upright at its foot showing an exceptionally crisp restrained cream banking interface with exact word 'alto', one large simple circular balance chart and two small coral blocks, no dense tiny text. Oversized deep violet rounded sans wordmark 'alto' in upper fifth, legible and wholly within margins. Soft directional shadows, subtle glass refraction, polished cinema4D-quality material realism, confident technology advertising, pleasing strong abstract shapes visible at thumbnail size. Phone fully inside frame. No multiple device collage, no watermark, no fake performance numbers.",
+      "width": 1035,
+      "height": 1520,
+      "aspect": 0.680921,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "fable",
+      "brand": "FABLE",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-d2082798-72dd-423f-bd2f-d0c1a80795b4.png",
+      "master": "assets/hero/fable.png",
+      "prompt": "Use case: illustration-story. ONE original full-bleed premium illustrated brand campaign poster for fictional creative learning brand FABLE. Tall portrait .68:1. Beautiful sophisticated cut-paper and risograph-inspired illustration: a joyful large coral-red bird with cobalt-blue wings carries a tiny cream book through a fantastical pink garden, sculptural paper flowers and a bright yellow sun. A human hand reaching from bottom offers the open book, simplified but artful silhouette, no malformed anatomy. Strong editorial shapes, tactile ink grain, clean highly authored illustration rather than generic 3D characters. Exact large playful cream typography 'FABLE' at top on rich cobalt band, enough breathing room. Main composition all inside margins, charming yet design-literate, luxury children's publishing campaign by independent design studio. No collage panel grid, no watermark.",
+      "width": 1034,
+      "height": 1521,
+      "aspect": 0.679816,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "bloom",
+      "brand": "BLOOM",
+      "requestedAspect": ".9067",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-80f70fa1-510e-4622-b404-1ab05d3f099a.png",
+      "master": "assets/hero/bloom.png",
+      "prompt": "Use case: ads-marketing. ONE original fictional contemporary jewelry brand BLOOM advertising photograph. Portrait near-square aspect .9067:1. Intimate elegant photorealistic macro of a woman's warm olive hand resting on pale blush silk, wearing one sculptural chunky polished gold ring shaped like a folded petal; an abstract translucent amber acrylic curve arcs behind the hand and catches sunlight. Cream and coral-pink background, lush but minimalist crop, real human skin and believable jewelry, very sophisticated fashion-editorial lens, directional natural light, tactile fabric. Exact thin high-contrast chocolate-brown serif wordmark 'BLOOM' in upper fifth, entirely within generous margins. Ring and hand gesture central, no face required. No extra fingers, no clutter, no multiple jewelry items, no interface, no watermark.",
+      "width": 1254,
+      "height": 1254,
+      "aspect": 1.0,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "folio",
+      "brand": "FOLIO",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-bc96a895-0cd3-47f4-9ab0-1e7eda356e95.png",
+      "master": "assets/hero/folio.png",
+      "prompt": "Use case: product-mockup. ONE original digital editorial design campaign image for fictional creative publication FOLIO. Tall portrait .68:1 full bleed. A natural hand holds a slim black tablet diagonally across a vivid yellow tabletop. Tablet screen contains an exceptionally polished editorial e-book cover with exact headline 'FOLIO', dramatic black typography, a single oversized cobalt-blue typographic ampersand, cream space and a small architectural image; clear authentic graphic design, no fake detailed gibberish. Behind tablet, one cream printed publication with same FOLIO masthead sits partly beneath it. Hard sunny shadows and very tactile paper, elegant modern art direction. Tablet entirely inside frame with room around corners; top of canvas has small black FOLIO wordmark, do not crop letters. Premium creative agency portfolio photograph, no multi-panel board or watermark.",
+      "width": 1035,
+      "height": 1520,
+      "aspect": 0.680921,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "tempo",
+      "brand": "TEMPO",
+      "requestedAspect": ".68",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-f8b98587-6b0f-41ca-99ff-f724bf6799e4.png",
+      "master": "assets/hero/tempo.png",
+      "prompt": "Use case: ads-marketing. ONE original bold fictional sparkling drink brand TEMPO campaign. Tall portrait .68:1 about1020x1500, full bleed electric swimming-pool turquoise background. Two elegantly designed slim tangerine-orange aluminum cans form a dynamic diagonal balanced composition, condensation sparkling, small splash of water frozen behind them and one cut pink grapefruit at base. Cans display exact huge dark navy condensed sans wordmark 'TEMPO' vertically and a crisp simple cobalt circle. Large dark navy TEMPO wordmark across upper fifth, fully visible with safe margins. Outstanding photorealistic high-speed studio advertising, believable liquid, graphic color blocking, vibrant fresh feeling, materials precise. Entire main can and brand name visible; dynamic yet restrained, not a crowded product mockup collage. No real brand marks, no watermarks.",
+      "width": 1034,
+      "height": 1521,
+      "aspect": 0.679816,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "id": "orbit",
+      "brand": "ORBIT",
+      "requestedAspect": ".9067",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a188ab-5ff6-7fe3-8337-5f09c2a7da71\\exec-ab71044e-c977-4120-9023-5bfe81f67dea.png",
+      "master": "assets/hero/orbit.png",
+      "prompt": "Use case: ads-marketing. ONE original fashion-led travel brand campaign for fictional luggage brand ORBIT. Portrait near-square aspect ratio 0.9067:1 about1100x1213, full bleed. Art direction: powder-blue outdoor studio set in brilliant sunlight, fashionable young adult woman with warm brown skin wearing a tomato-red sculptural long coat, ivory trousers and white sneakers, seated casually on a polished aluminum sculptural bench, bright butter-yellow ribbed suitcase upright beside her. Full figure and entire suitcase deliberately fit in frame with generous margins, relaxed confident human gesture, genuine editorial fashion photography rather than plastic AI model, finely rendered fabric and sunlight. Minimal large dark navy rounded sans wordmark 'ORBIT' across upper part, unobstructed and fully within margins. Small optional text 'TAKE THE LONG WAY'. Clean red/blue/yellow graphic color composition, distinctive independent design studio travel advertising, editorial taste. One person, natural anatomy, no collage, no watermarks, no real luxury logos.",
+      "width": 1194,
+      "height": 1317,
+      "aspect": 0.906606,
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "mode": "built-in image_gen",
+  "use": "fictional portfolio concepts and brand illustration",
+  "assets": [
+    {
+      "name": "naya",
+      "prompt": "Use case: product-mockup. Create a landscape 3:2 art-directed agency portfolio photograph of a FICTIONAL beauty brand NAYA. Big bold custom modern white sans letters NAYA on a glossy pale lavender skincare tube and a bright cobalt blue cylindrical jar. A wavy lavender sculptural platform and clean lavender backdrop, direct side light, carefully styled real cosmetic product photograph. A little liquid gloss and translucent acrylic. Playful bold contemporary design, not muted luxury stock, rich lilac, cobalt, lavender, small acid-yellow label detail. Front camera angle, products big and centered, crops usable portrait or landscape. Exact text NAYA only, other label detail minimal. No real brand, no website UI, no watermark, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-d7401320-ec58-453f-9603-144dcb2a2931.png",
+      "master": "assets/magic/naya.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "kora",
+      "prompt": "Use case: ads-marketing. Landscape 3:2 premium creative campaign concept for FICTIONAL running brand KORA. Close-up low angle of a vivid cobalt blue and silver running sneaker balanced on a bright red sculptural platform. Behind it a huge warm ivory poster with graphic bold custom dark-green word KORA and oversize red dynamic letterforms, professional typography. Footwear design futuristic but believable, sharply photographed, active red and cobalt, strong graphic composition and crisp studio shadow, European independent creative studio portfolio art direction. No real logo, no watermark, no person, no website UI, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-49431538-2d02-4664-8db1-67b2a0ec27e9.png",
+      "master": "assets/magic/kora.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "saison",
+      "prompt": "Use case: product-mockup. Landscape 3:2 playful sophisticated fictional specialty juice brand SAISON campaign photograph. Three sculptural orange-red aluminum beverage cans with cream and dark forest-green labels, oversized exact type SAISON, one can tilted across two others, whole blood oranges and sliced orange, red fabric small accent. Bright matte coral-orange environment with warm cream sculptural blocks. Bold modern graphic design, joyful Mediterranean art direction, tangible real condensation and brushed aluminum, direct warm sunlight. Vibrant orange, coral, cream, deep forest green lettering. Products take 80 percent of image. No real logos, no watermark, no website UI, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-14535852-ae5b-476e-a0d3-757d2e3dba79.png",
+      "master": "assets/magic/saison.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "muse",
+      "prompt": "Use case: ads-marketing. Landscape 3:2 fictional contemporary arts festival brand MUSE, advertising concept in a real urban gallery street. A large minimal pale yellow poster reads MUSE in giant deep emerald playful rounded condensed lettering, with a big 3D shiny cobalt-blue abstract looping sculpture photograph overprinting the center. Two companion posters in emerald and ivory partially visible on either side, all professionally wheatpasted to a cream architecture wall with warm Mediterranean sun. High-end independent studio portfolio, distinctive art typography, visually striking culture campaign, tactile real paper texture. No real brands, no watermark, no UI, no collage.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-0e65e799-5404-4869-be47-07fdf3acb4a2.png",
+      "master": "assets/magic/muse.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "magic-object",
+      "prompt": "Use case: stylized-concept. Landscape 3:2 premium experimental design still life for a creative agency called Magic. One large sculptural inflated four-point magic sparkle object in polished pale gold chrome, shaped like a soft four-point star, resting on a deep emerald velvet sculptural block. A cream orb and an emerald glossy loop interact physically with it, one small gold sparkle shape. Rich forest green backdrop and warm ivory stone tabletop. Contemporary playful high-end 3D art direction, tangible softly reflective metal, precise light and real contact shadows, not a flat icon or illustration, not stock office. Dynamic diagonal composition, objects fill frame. No text, no actual logo, no watermark, no website UI.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a18247-6837-77d3-a14d-3b6b7d9a1ac8\\exec-8996a757-4f4e-4758-9803-4a535d120c05.png",
+      "master": "assets/magic/magic-object.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}

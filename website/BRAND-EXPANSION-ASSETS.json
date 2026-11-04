@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-29",
+  "mode": "built-in image_gen",
+  "purpose": "Multiple consistent campaign views for user-preferred brands; replacing retired concepts on active homepage.",
+  "assets": [
+    {
+      "name": "naya-hands",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. Create a NEW second campaign photograph for the EXACT SAME fictional NAYA skincare brand in reference. Preserve recognizable giant white geometric sans NAYA letters, small acid yellow dot, lavender squeeze tube and cobalt blue cream jar. New scene: two natural human hands interacting with the tube and open jar over a tactile lavender folded textile, small swipe of cream. Premium vivid studio beauty campaign, playful bold art direction, tangible highlights and skin texture. Landscape 3:2, central whole products with 12% breathing room all edges, no cropped brand names, no collage, no UI badges, no watermarks. NOT a copy of reference composition; consistent brand, fresh human scene. Only main readable word NAYA.",
+      "reference": "assets/magic/naya.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-30d3b318-b781-47fa-90c1-7df8a5ba598e.png",
+      "master": "assets/magic/naya-hands.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "naya-campaign",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. Create a NEW campaign application image for EXACT SAME fictional NAYA brand in reference: giant geometric white NAYA typography and tiny acid yellow dot, lavender and cobalt skincare packaging. A bold lavender NAYA campaign poster displayed upright on clean cobalt studio wall, an actual lavender tube and cobalt jar standing on low lavender block in foreground, a cream thick brand-guideline booklet open showing color chips and giant NAYA typography. Crisp playful independent studio art direction, real paper and plastic, not luxury beige. Landscape 3:2, whole poster and products visible with 12% safe margin, no UI screenshot, no overlays, no watermark. Preserve brand identity.",
+      "reference": "assets/magic/naya.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-07d092c2-5cff-4474-a7bf-98d547ea4b6d.png",
+      "master": "assets/magic/naya-campaign.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "kora-campaign",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. New campaign photograph extending EXACT fictional KORA sport brand in reference. Preserve cobalt blue technical mesh running shoe, silver sculptural overlays, deep forest huge KORA sans lettering, vivid vermilion red swoosh-like abstract graphic WITHOUT any real brand logo, cream ground. New scene: full pair of matching sneakers on bold red angular plinth, human runner's hand naturally tying laces of one shoe, cream sports sock at right, vertical printed KORA campaign poster leaning behind. Full shoes fit image, 12% safe margins. Premium tangible energetic sports editorial, directional natural studio light. Landscape 3:2, no collage, watermark, UI or badge. EXACT text KORA.",
+      "reference": "assets/magic/kora.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-949b17fe-ad8b-449b-b332-dd4cbb38c537.png",
+      "master": "assets/magic/kora-campaign.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "pulse-lifestyle",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. Create new campaign extension for EXACT fictional PULSE audio brand in reference: same cobalt blue chunky over-ear headphones, cream rounded chunky PULSE lettering, acid yellow cable and yellow/blue packaging. Young adult woman in plain butter-yellow T-shirt, head and shoulders fully within frame, eyes relaxed, gently putting the cobalt headphones on, joyful candid human gesture. Minimal cobalt studio backdrop and sculptural yellow platform with closed blue PULSE box nearby. Bold editorial art direction, natural skin texture, strong color blocking, premium photography. Landscape 3:2 all key subjects with 12% breathing space. No floating text overlay, no UI badge, watermark, no real brand logo.",
+      "reference": "assets/magic/pulse.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-a1a9f20f-6156-4912-ac3c-43af65656951.png",
+      "master": "assets/magic/pulse-lifestyle.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "saison-campaign",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. Create new image for EXACT SAME fictional SAISON citrus drink brand from reference, preserving warm cream label, tall dark forest condensed SAISON wordmark, large orange fruit and green leaf graphic, coral can top. A human hand raises one fully visible cold SAISON can, with two other full cans and an orange wedge on vivid terracotta picnic table. In background neatly arranged large cream campaign poster with oversize dark green SAISON word and red-orange round graphic; sunny warm shadows, real condensation and paper. Art-directed bold playful campaign, clean close editorial composition but keep full hand and products within frame with 12% safe margins. Landscape 3:2, no UI badges, collage or watermark.",
+      "reference": "assets/magic/saison.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-70f272b3-546e-4e37-851d-9c03b2e8fb13.png",
+      "master": "assets/magic/saison-campaign.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "palma-campaign",
+      "prompt": "Use case: product-mockup. Reference image is style and brand consistency input, not an image to simply duplicate. Create a NEW brand application photograph for EXACT fictional PALMA sun care brand in reference. Preserve big tall cream PALMA serif letters on coral tube and turquoise bottle, same warm sunny Mediterranean attitude. New scene: coral fabric tote with cream PALMA lettering and simple tiny palm-tree mark, cream campaign postcard showing coral skincare tube, actual turquoise bottle and coral tube on turquoise poolside deck chair under warm sun. A natural hand resting on tote handle adds human detail. All product silhouettes complete and main lettering readable, generous 12% margin. Vibrant graphic clean commercial art direction, warm paper and fabric tactile textures. Landscape 3:2. No UI, collage, badges, watermark, real logos.",
+      "reference": "assets/magic/palma.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-1695e287-7a8d-4aff-9368-66456d041fab.png",
+      "master": "assets/magic/palma-campaign.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-03",
+  "mode": "built-in image_gen",
+  "purpose": "Replace rejected ALTO and FABLE hero visuals with two new fictional product brands.",
+  "assets": [
+    {
+      "id": "kova",
+      "brand": "KOVA",
+      "replaces": "hero/alto",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a30d-6e7f-7a62-ae0d-ae6d5ef8571c\\exec-de5930a7-7dc6-4dc5-9a31-b998991b9033.png",
+      "master": "assets/hero/kova.png",
+      "prompt": "Use case: product-mockup. Asset: ONE original fictional brand campaign tile for a creative agency hero gallery, premium independent design studio portfolio. Create a completely new fictional specialty coffee brand KOVA. Tall portrait canvas aspect ratio 0.68:1, approximately 1024x1504, full bleed with no frame. High-end art-directed product photograph: a sculptural matte cobalt-blue coffee bag standing upright with an oversized cream KOVA custom condensed sans-serif wordmark printed crisply on its face, and one warm ivory takeaway coffee cup with cobalt KOVA branding beside it. A burnt-orange circular paper element sits partly behind the bag, a few coffee beans and a restrained spill of espresso crema on the studio surface. Warm butter-yellow seamless backdrop and tabletop, striking cobalt / cream / ochre color blocks, hard directional afternoon light, convincing kraft-paper folds and fine print texture. Low three-quarter camera angle, simple confident arrangement, bold memorable silhouette readable at thumbnail size. Exact text: 'KOVA' on packaging and a generous large cobalt 'KOVA' masthead in the top fifth, optional tiny 'SPECIALTY COFFEE' only. Maintain 10% side and top safe margins for main wordmarks and products. All key objects entirely inside frame. Photoreal editorial advertising, exceptionally refined optical typography. No phones, screens, glass arches, illustrated characters or birds. No collage, no mockup board, no real brand logos, no watermark.",
+      "sizes": [
+        480,
+        900,
+        1400
+      ],
+      "width": 1035,
+      "height": 1520
+    },
+    {
+      "id": "vela",
+      "brand": "VELA",
+      "replaces": "hero/fable",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1a30d-6e7f-7a62-ae0d-ae6d5ef8571c\\exec-b11970bb-f30f-4cd8-ae7e-fb2e8573f611.png",
+      "master": "assets/hero/vela.png",
+      "prompt": "Use case: product-mockup. Asset: ONE original premium fictional fragrance brand campaign tile for a creative agency scrolling hero gallery. New fictional niche perfumery brand VELA, completely original. Tall portrait canvas aspect ratio 0.68:1, approximately 1024x1504, full bleed. Exquisite still-life product photography of a single sculptural clear rectangular perfume bottle containing deep amber perfume, broad dark burgundy lacquer cap, delicate ivory label reading 'VELA' in elegant high-contrast serif lettering. A matching warm ivory textured rigid perfume box with small burgundy VELA wordmark sits slightly behind. Both rest on a low terracotta plinth on a seamless pale apricot studio backdrop. One slender translucent amber resin disc behind the bottle creates beautiful refracted sunlight and a long sculpted shadow. Directional golden sunlight, real glass thickness, intricate caustics, tactile uncoated packaging, quiet sensual editorial luxury. Large dark burgundy serif 'VELA' headline in upper fifth with generous breathing space; only optional smaller text 'EAU DE PARFUM'. Clear readable brand, carefully balanced typography, polished image by a top independent design studio. Keep full perfume bottle, cap and major wordmarks within middle 80% of width. Singular coherent still life, refined substantial shapes at thumbnail size, original brand identity. No hand, no smartphone, no interface, no purple glass arch, no illustration, no flowers, no collage, no watermark.",
+      "sizes": [
+        480,
+        900,
+        1400
+      ],
+      "width": 1035,
+      "height": 1520
+    }
+  ]
+}

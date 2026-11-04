@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /directions/
 
-Sitemap: https://magic360.tn/sitemap.xml
+Sitemap: https://magicbrandingco.com/sitemap.xml

@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-29",
+  "mode": "built-in image_gen",
+  "purpose": "Nine further campaign extensions, all displayed on homepage and accessible in brand albums.",
+  "assets": [
+    {
+      "name": "naya-retail",
+      "brand": "naya",
+      "alt": "Concept Naya : présentoir lavande, soins bleu cobalt et sacs de marque",
+      "caption": "La marque en boutique",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. NAYA skincare retail campaign scene. Preserve giant white geometric sans NAYA lettering with tiny acid-yellow dot, lavender squeeze tube and glossy cobalt cream jar. New scene: tactile lavender counter display with three full products, cobalt shopping bag with cream NAYA lettering, a cream folded leaflet with lavender color blocks and acid-yellow detail. Warm human hand placing leaflet near bag. Dramatic simple cobalt studio background and pale lavender surface, soft beauty reflections. Actual packaging should match reference exactly. Only primary readable text NAYA.",
+      "reference": "assets/magic/naya.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-8eb4869c-fa37-42f0-8a42-639e1181ec8e.png",
+      "master": "assets/magic/naya-retail.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "kora-detail",
+      "brand": "kora",
+      "alt": "Concept Kora : détail de sneaker bleue, boîte rouge et supports de marque",
+      "caption": "Le détail produit",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. KORA sports brand. Same cobalt technical-mesh running sneaker with silver sculptural overlays, cream/deep-forest giant KORA typography and vermilion angular graphic. New close still life: one COMPLETE sneaker angled diagonally on red textured shoebox; cream tissue paper printed with small dark green KORA; red hang tag and cream sock nearby. Product fills center but entire silhouette and box within frame. Editorial sharp material texture and exciting studio lighting, cream background. No real brand marks. Exact text KORA.",
+      "reference": "assets/magic/kora.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-a91221c8-f67f-4d76-abc6-392e9d54e316.png",
+      "master": "assets/magic/kora-detail.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "kora-social",
+      "brand": "kora",
+      "alt": "Concept Kora : campagne digitale sur téléphone et sneakers bleues sur fond rouge",
+      "caption": "La campagne digitale",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. KORA sport digital content campaign. Preserve exact cobalt/silver technical sneaker, forest KORA big geometric sans letters and bold vermilion/cream graphic language. Physical studio scene with upright black smartphone showing a clean campaign post, KORA at top and the same blue sneaker photograph on cream/red background; actual full blue sneaker and red shoebox beside phone; large cream campaign print leaning behind with KORA text. Bold red tabletop, sculptural sunlight, entire phone and shoe inside safe margins. Minimal screen text only KORA. No browser chrome, no external brand logos.",
+      "reference": "assets/magic/kora.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-c21fb5ee-1480-4fa4-8202-9fa22a8afef8.png",
+      "master": "assets/magic/kora-social.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "pulse-posters",
+      "brand": "pulse",
+      "alt": "Concept Pulse : affiche jaune et cobalt, casque et packaging audio",
+      "caption": "L’affichage",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. PULSE audio campaign applications. Preserve chunky cobalt-blue over-ear headphones, rounded cream PULSE wordmark and acid-yellow/cobalt palette exactly as reference. New scene: two full printed campaign posters leaning on cobalt studio wall, one acid yellow with oversize cobalt PULSE text and blue headphone photograph, the other cobalt with chunky cream PULSE text. Actual full headset rests on a simple yellow cube in foreground; small cream folded brand leaflet. Physical paper curl and soft tactile shadows, polished playful commercial photograph. Entire posters/headphones fit safely in frame. Exact primary word PULSE.",
+      "reference": "assets/magic/pulse.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-242fcf63-ba7d-4974-adeb-9482fdcd9f6d.png",
+      "master": "assets/magic/pulse-posters.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "pulse-web",
+      "brand": "pulse",
+      "alt": "Concept Pulse : site web audio sur ordinateur, casque bleu et câble jaune",
+      "caption": "Le site de marque",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. PULSE audio ecommerce brand mockup. Same cobalt headphones with tiny cream PULSE lettering, chunky rounded PULSE wordmark, vivid yellow cable and cobalt retail box. New composition: cobalt laptop on vivid yellow tabletop showing exceptionally clean bold yellow PULSE homepage with large chunky cobalt PULSE headline and blue headphones photograph, simple navy navigation marks; actual complete blue headphones and cream mini catalog beside laptop. Blue studio backdrop, strong graphic color, physical scene not a flat screenshot. Whole laptop/headphones shown, all screen edges visible. Minimal text PULSE only.",
+      "reference": "assets/magic/pulse.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-021bc297-64db-4882-a504-bec432e129e0.png",
+      "master": "assets/magic/pulse-web.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "saison-social",
+      "brand": "saison",
+      "alt": "Concept Saison : campagne sociale sur téléphone, canettes et agrumes",
+      "caption": "Les contenus sociaux",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. SAISON citrus drink campaign rollout. Preserve cream can labels with tall dark forest condensed SAISON wordmark, vivid red-orange fruit/green leaf graphics and coral top exactly like reference. New scene on warm terracotta table: upright smartphone showing a bold cream and orange SAISON social post with one can; two actual FULL chilled cans and sliced blood orange; small cream promotional card with big forest SAISON type. Mediterranean sun, tactile paper and condensation, strong artistic layout, one natural hand holding phone from lower edge. Keep phone/cans whole and names readable. Primary word SAISON only.",
+      "reference": "assets/magic/saison.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-d21837d8-014e-4159-86cb-b1d68f1b7bb8.png",
+      "master": "assets/magic/saison-social.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "muse-tickets",
+      "brand": "muse",
+      "alt": "Concept Muse : billets, programme jaune et bracelet de festival autour d’une sculpture bleue",
+      "caption": "Les supports de l’événement",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. MUSE contemporary arts festival identity expansion. Preserve butter-yellow poster, giant dark forest chunky condensed MUSE typography and glossy cobalt loop sculpture from reference. New table arrangement of full yellow festival program, two cream/yellow tickets with dark green MUSE typography, cobalt fabric lanyard and wristband, small cobalt sculptural loop in background. A human hand naturally holds one full ticket. Warm pale stone surface, sunshine and real printed paper, bold tactile graphic art direction. Entire program and main tickets readable within safe margins, not a collage. Main exact word MUSE.",
+      "reference": "assets/magic/muse.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-2d09ea93-7b86-4392-bf7b-156ca239396a.png",
+      "master": "assets/magic/muse-tickets.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "grain-identity",
+      "brand": "grain",
+      "alt": "Concept Grain : packaging café orange, guide de marque et tasse imprimée",
+      "caption": "Le système de marque",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. GRAIN coffee brand design system. Preserve exact burnt-orange coffee bag and large dark forest GRAIN serif wordmark, cream and dark-green accents. New scene: full orange bag standing next to open cream brand-guideline booklet showing oversized dark-green GRAIN and orange/green color swatches, cream branded coffee cup, flat orange business cards. A human hand turns one booklet page. Simple orange/cream studio set, warm oblique sunlight, tactile uncoated paper, premium bold commercial art direction. Full bag/book/cup with space around them. Primary readable word GRAIN.",
+      "reference": "assets/magic/grain.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-310ddb0c-4516-4b09-8b36-8359f88ec517.png",
+      "master": "assets/magic/grain-identity.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "palma-summer",
+      "brand": "palma",
+      "alt": "Concept Palma : campagne solaire, produits corail et turquoise, serviette et affiche",
+      "caption": "La campagne d’été",
+      "prompt": "Use case: product-mockup. Reference image establishes exact fictional brand identity, colors, typography and product design. Generate ONE new landscape 3:2 premium campaign photograph extending that brand, not a collage or a duplicate composition. Bold artistic independent-agency style, tangible materials and believable light. Keep every main product and brand name fully inside frame, with 12% breathing room; no edge-cropped labels, no overlay UI, no badges or watermarks. PALMA skincare summer campaign applications. Preserve tall oversized cream PALMA serif typography on coral sun-cream tube and turquoise after-sun bottle, small palm-tree mark, sunny Mediterranean style from reference. New complete still life: a large turquoise campaign print showing coral tube, actual full coral tube and turquoise bottle on warm cream block, coral-and-cream striped towel and cream printed card. A human hand naturally picks up bottle from side without covering its PALMA wordmark. Turquoise water reflections and hard sunlight, lively but clean graphic art direction. Products and campaign print fit full frame with generous margins. Exact word PALMA.",
+      "reference": "assets/magic/palma.png",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-072b4847-d821-43dd-a4f8-0b82ce961da9.png",
+      "master": "assets/magic/palma-summer.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#062d26">
+<title>Images du hero — Magic 360</title>
+<link rel="icon" href="/magiclogo.png"><link rel="stylesheet" href="/assets/fonts/magic-fonts.css">
+<link rel="stylesheet" href="/admin/editor.css"><script src="/admin/editor.js" defer></script>
+</head>
+<body>
+<header><a href="/" class="brand" aria-label="Magic 360, accueil"><img src="/assets/magic/magic-logo.png" width="140" height="64" alt="Magic"></a><nav><a href="/" target="_blank" rel="noopener">Voir le site <svg viewBox="0 0 32 32" aria-hidden="true"><use href="/assets/magic-icons.svg#magic-up"/></svg></a><button id="logout" hidden>Déconnexion</button></nav></header>
+<main>
+<section id="login" class="login" hidden>
+<h1>Vos images,<br>votre rythme.</h1><p>Connectez-vous pour choisir les images du hero et leur ordre.</p>
+<form id="login-form"><label for="password">Mot de passe</label><div class="password-field"><input type="password" id="password" name="password" required autocomplete="current-password"><button type="button" id="show-password" aria-pressed="false" aria-label="Afficher le mot de passe">Afficher</button></div><button class="primary" type="submit">Se connecter</button><p id="login-error" role="alert"></p></form>
+</section>
+<p id="loading" role="status">Chargement de l’éditeur…</p>
+<section id="editor" hidden>
+<div class="title-row"><div><h1>Images du hero</h1><p>Choisissez les images, ajustez leur nom et leur ordre dans chaque colonne.</p></div><a href="/" target="_blank" rel="noopener" class="outline">Aperçu du site</a></div>
+<div class="savebar"><p id="save-status" role="status" aria-live="polite">Aucune modification.</p><div><button id="discard" disabled>Annuler les modifications</button><button id="save" class="primary" disabled>Enregistrer</button></div></div>
+<p id="editor-error" class="error" role="alert"></p>
+<div class="workspace"><div><p class="hint">Glissez les images pour les déplacer, ou utilisez les flèches. Trois colonnes sur ordinateur, deux rangées sur mobile. Les changements apparaissent après enregistrement.</p><div id="lanes" class="lanes"></div></div>
+<aside id="library-panel" aria-labelledby="library-title"><div class="library-heading"><h2 id="library-title">Bibliothèque</h2><button id="close-library" aria-label="Fermer la sélection" hidden><svg viewBox="0 0 32 32" aria-hidden="true"><use href="/assets/magic-icons.svg#magic-close"/></svg></button></div><p id="selection-help">Choisissez « Ajouter » ou « Remplacer » dans une colonne.</p><label class="upload outline" for="upload"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="/assets/magic-icons.svg#magic-plus"/></svg>Importer une image<input id="upload" type="file" accept="image/jpeg,image/png,image/webp"></label><p class="hint">JPG, PNG ou WebP · 10 Mo maximum. Proportions originales conservées, sans recadrage.</p><label for="search" class="search-label">Rechercher une image</label><input id="search" type="search" placeholder="Naya, Palma…" autocomplete="off"><p id="library-status" class="hint" role="status"></p><div id="library" class="library"></div></aside>
+</div>
+</section>
+</main>
+</body></html>

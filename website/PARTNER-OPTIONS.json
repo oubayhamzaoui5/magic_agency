@@ -1,0 +1,132 @@
+{
+  "status": "applied",
+  "source": "https://www.magicbrandingco.com/#partenaires",
+  "verifiedDate": "2026-11-03",
+  "partners": [
+    {
+      "id": "tunisco-sandwich-panel",
+      "name": "Tunisco Sandwich Panel",
+      "asset": "/assets/partners/clean/tunisco-sandwich-panel.png",
+      "ribbonAsset": "/assets/partners/ribbons/tunisco-sandwich-panel.webp",
+      "width": 480,
+      "height": 109
+    },
+    {
+      "id": "golden-tulip",
+      "name": "Golden Tulip",
+      "asset": "/assets/partners/clean/golden-tulip.png",
+      "ribbonAsset": "/assets/partners/ribbons/golden-tulip.webp",
+      "width": 440,
+      "height": 71
+    },
+    {
+      "id": "pharmacie-centrale-tunisie",
+      "name": "La Pharmacie Centrale de Tunisie",
+      "asset": "/assets/partners/clean/pharmacie-centrale-tunisie.png",
+      "ribbonAsset": "/assets/partners/ribbons/pharmacie-centrale-tunisie.webp",
+      "width": 422,
+      "height": 197
+    },
+    {
+      "id": "soquibat",
+      "name": "Soquibat",
+      "asset": "/assets/partners/clean/soquibat.png",
+      "ribbonAsset": "/assets/partners/ribbons/soquibat.webp",
+      "width": 294,
+      "height": 66
+    },
+    {
+      "id": "rne",
+      "name": "Registre National des Entreprises",
+      "asset": "/assets/partners/clean/rne.png",
+      "ribbonAsset": "/assets/partners/ribbons/rne.webp",
+      "width": 348,
+      "height": 176
+    },
+    {
+      "id": "maghrebia",
+      "name": "Maghrebia",
+      "asset": "/assets/partners/clean/maghrebia.png",
+      "ribbonAsset": "/assets/partners/ribbons/maghrebia.webp",
+      "width": 414,
+      "height": 73
+    },
+    {
+      "id": "cnci",
+      "name": "Centre National du Cinema et de l'Image",
+      "asset": "/assets/partners/clean/cnci.png",
+      "ribbonAsset": "/assets/partners/ribbons/cnci.webp",
+      "width": 380,
+      "height": 210
+    },
+    {
+      "id": "delice-danone",
+      "name": "Delice Danone",
+      "asset": "/assets/partners/clean/delice-danone.png",
+      "ribbonAsset": "/assets/partners/ribbons/delice-danone.webp",
+      "width": 406,
+      "height": 93
+    },
+    {
+      "id": "iecd-tunisie",
+      "name": "IECD Tunisie",
+      "asset": "/assets/partners/clean/iecd-tunisie.png",
+      "ribbonAsset": "/assets/partners/ribbons/iecd-tunisie.webp",
+      "width": 301,
+      "height": 210
+    },
+    {
+      "id": "spauz",
+      "name": "SPAUZ",
+      "asset": "/assets/partners/clean/spauz.png",
+      "ribbonAsset": "/assets/partners/ribbons/spauz.webp",
+      "width": 480,
+      "height": 193
+    },
+    {
+      "id": "hm",
+      "name": "H&M",
+      "asset": "/assets/partners/clean/hm.png",
+      "ribbonAsset": "/assets/partners/ribbons/hm.webp",
+      "width": 234,
+      "height": 157
+    },
+    {
+      "id": "nms",
+      "name": "New Medical Services",
+      "asset": "/assets/partners/clean/nms.png",
+      "ribbonAsset": "/assets/partners/ribbons/nms.webp",
+      "width": 355,
+      "height": 128
+    }
+  ],
+  "variants": [
+    {
+      "id": "rubans",
+      "name": "Rubans signature",
+      "description": "Two opposing logo rows with soft edges, closest to supplied reference."
+    },
+    {
+      "id": "grille",
+      "name": "Grille épurée",
+      "description": "A spacious static grid with centered title and monochrome marks."
+    },
+    {
+      "id": "foret",
+      "name": "Scène forêt",
+      "description": "Light logos above and below a central statement on forest."
+    },
+    {
+      "id": "cadres",
+      "name": "Mur de marques",
+      "description": "Original color logos in a structured ruled grid."
+    },
+    {
+      "id": "editorial",
+      "name": "Composition éditoriale",
+      "description": "Left-aligned statement beside an open logo field."
+    }
+  ],
+  "selectedVariantId": "rubans",
+  "selectedVariantName": "Rubans signature"
+}

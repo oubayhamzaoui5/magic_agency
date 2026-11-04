@@ -1,0 +1,58 @@
+{
+  "lanes": [
+    [
+      {
+        "image": "magic/naya",
+        "label": "Naya"
+      },
+      {
+        "image": "magic/palma-summer",
+        "label": "Palma"
+      },
+      {
+        "image": "magic/saison-social",
+        "label": "Saison"
+      },
+      {
+        "image": "magic/muse",
+        "label": "Muse"
+      }
+    ],
+    [
+      {
+        "image": "magic/kora-detail",
+        "label": "Kora"
+      },
+      {
+        "image": "magic/pulse-posters",
+        "label": "Pulse"
+      },
+      {
+        "image": "magic/grain-identity",
+        "label": "Grain"
+      },
+      {
+        "image": "magic/naya-retail",
+        "label": "Naya"
+      }
+    ],
+    [
+      {
+        "image": "magic/saison",
+        "label": "Saison"
+      },
+      {
+        "image": "magic/naya-hands",
+        "label": "Naya"
+      },
+      {
+        "image": "magic/palma-campaign",
+        "label": "Palma"
+      },
+      {
+        "image": "magic/kora-campaign",
+        "label": "Kora"
+      }
+    ]
+  ]
+}

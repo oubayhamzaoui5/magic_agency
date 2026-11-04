@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "mode": "built-in image_gen",
+  "purpose": "Clarify strategy, branding, digital presence and events through fictional examples; safe landscape framing.",
+  "assets": [
+    {
+      "name": "grain-strategy",
+      "prompt": "Use case: product-mockup. Create one landscape 3:2 art-directed campaign photograph for Magic 360 agency portfolio, matching attached reference mood: bold tactile product photography, Mediterranean warmth, punchy cobalt, coral, cream and deep forest. Fictional brand GRAIN coffee: orange coffee bag with simple large dark green word GRAIN, cream takeaway coffee cup with green mark, printed brand strategy cards and contact sheet on ivory table, a human hand arranging color swatches. Beautiful credible paper textures and hard afternoon sunlight. Compose central still life with full products visible, generous 12% safety margin on all edges; no cropped branding, no UI frame, no overlay badges, no watermarks. Conveys strategy becoming brand identity, human and clean. Only readable word GRAIN.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-77e250fb-85c4-4889-98b7-9246c1f25190.png",
+      "master": "assets/magic/grain-strategy.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "palma-digital",
+      "prompt": "Use case: product-mockup. Landscape 3:2 premium editorial campaign photograph for creative agency. Fictional Mediterranean skincare brand PALMA. A cobalt laptop displaying an elegantly designed cream and turquoise skincare ecommerce page with large orange tube photo and simple PALMA wordmark, beside upright smartphone displaying matching editorial social media feed and an actual coral skincare tube. On warm cream travertine, tiny citrus accent, natural shadow, turquoise backdrop. Strong refined art direction matching vivid PALMA/PULSE/NAYA product campaign references. Show coherent website and social identity through a realistic physical scene. Central objects complete, all screen edges visible, 12% breathing room, high readable hierarchy, screens carry minimal text only PALMA. No UI overlay, watermark, Magic seals or invented agency results.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-a4dbc343-bfc9-484b-a011-2be00e022427.png",
+      "master": "assets/magic/palma-digital.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    },
+    {
+      "name": "muse-event",
+      "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial concept image of fictional MUSE cultural launch evening in Mediterranean courtyard: bold cobalt sculptural loop on a low cream podium, butter-yellow banner with large dark forest MUSE typography, warm terracotta event invitation and lanyards in foreground, small group of naturally interacting adult visitors seen in side view or from behind, warm candid human gestures. Architectural arches, golden evening light, clean artistic staging, few elements, physical materials, campaign quality matching bold NAYA/PULSE/SAISON references. Full banner and installation within frame, 10% safe margins, no awkward cropped heads, no agency branding, no watermark. Clearly an imagined brand event, not reportage of a real client.",
+      "source": "C:\\Users\\oubay\\.codex\\generated_images\\01a1854c-91e4-7d12-bbde-59715a3fd28c\\exec-a7c3869b-0685-483d-b84b-39bfa7621927.png",
+      "master": "assets/magic/muse-event.png",
+      "sizes": [
+        480,
+        900,
+        1400
+      ]
+    }
+  ]
+}
