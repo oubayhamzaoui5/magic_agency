@@ -2,6 +2,97 @@
   "directoryListing": false,
   "cleanUrls": false,
   "rewrites": [
-    {"source": "/", "destination": "/index.html"}
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/directions/atelier",
+      "destination": "/directions/atelier/index.html"
+    },
+    {
+      "source": "/directions/atelier/",
+      "destination": "/directions/atelier/index.html"
+    },
+    {
+      "source": "/directions/cinema",
+      "destination": "/directions/cinema/index.html"
+    },
+    {
+      "source": "/directions/cinema/",
+      "destination": "/directions/cinema/index.html"
+    },
+    {
+      "source": "/directions/collectif",
+      "destination": "/directions/collectif/index.html"
+    },
+    {
+      "source": "/directions/collectif/",
+      "destination": "/directions/collectif/index.html"
+    },
+    {
+      "source": "/directions/edition",
+      "destination": "/directions/edition/index.html"
+    },
+    {
+      "source": "/directions/edition/",
+      "destination": "/directions/edition/index.html"
+    },
+    {
+      "source": "/directions/services-editorial",
+      "destination": "/directions/services-editorial/index.html"
+    },
+    {
+      "source": "/directions/services-editorial/",
+      "destination": "/directions/services-editorial/index.html"
+    },
+    {
+      "source": "/directions/services-panorama",
+      "destination": "/directions/services-panorama/index.html"
+    },
+    {
+      "source": "/directions/services-panorama/",
+      "destination": "/directions/services-panorama/index.html"
+    },
+    {
+      "source": "/directions/services-parcours",
+      "destination": "/directions/services-parcours/index.html"
+    },
+    {
+      "source": "/directions/services-parcours/",
+      "destination": "/directions/services-parcours/index.html"
+    },
+    {
+      "source": "/directions/solutions-atelier",
+      "destination": "/directions/solutions-atelier/index.html"
+    },
+    {
+      "source": "/directions/solutions-atelier/",
+      "destination": "/directions/solutions-atelier/index.html"
+    },
+    {
+      "source": "/directions/solutions-connexions",
+      "destination": "/directions/solutions-connexions/index.html"
+    },
+    {
+      "source": "/directions/solutions-connexions/",
+      "destination": "/directions/solutions-connexions/index.html"
+    },
+    {
+      "source": "/directions/solutions-editorial",
+      "destination": "/directions/solutions-editorial/index.html"
+    },
+    {
+      "source": "/directions/solutions-editorial/",
+      "destination": "/directions/solutions-editorial/index.html"
+    },
+    {
+      "source": "/directions/studio",
+      "destination": "/directions/studio/index.html"
+    },
+    {
+      "source": "/directions/studio/",
+      "destination": "/directions/studio/index.html"
+    }
   ]
 }
