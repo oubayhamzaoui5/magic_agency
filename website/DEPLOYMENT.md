@@ -1,5 +1,9 @@
 # Magic production delivery
 
+Live frontend release: `4a73bf55877f7057193e9dccba074ba1a86f18f8`, deployed2026-11-04. Later documentation-only commits do not change its public bytes.
+
+Current server source: `/root/magic_agency`; PM2 config: `/root/magic-runtime/ecosystem.config.json`. Previous release and configuration backups: `/root/magic-deploy-backups/20261104-39343f7/`. Roll back with `bash /root/magic-runtime/rollback-be38a82.sh`; it exchanges the release directories atomically and restores the original Magic PM2 configuration. Keep these backups and scripts root-only.
+
 Production origin: https://magicbrandingco.com/. The original VPS site is managed as the root PM2 application `magic_agency`, behind the existing nginx TLS vhost.
 
 Versioned source includes the compiled homepage, selected editorial sections, builder, saved hero choices, optimized WebP/PNG icons, fonts and generation prompts. Large generated PNG masters remain locally in `assets/` and in the local `codex/full-source-local-backup` Git snapshot. Runtime and the hero editor use the optimized WebP collection; they do not require those masters. Do not delete them from the authoring workspace.
